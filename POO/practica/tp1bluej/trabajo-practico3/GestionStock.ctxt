@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Sep 08 00:06:36 ART 2026
+comment0.target=GestionStock
+comment0.text=\r\n   El enunciado del pr\u00E1ctico te pide realizar las siguientes acciones en el main()\:  \r\n   Instanciar 1 producto (pas\u00E1ndole un laboratorio). \r\n   Asignarle un stock inicial de 500 unidades (usando el m\u00E9todo ajuste()). \r\n   Mostrar por pantalla los datos completos del producto y su stock valorizado. \r\n   Simular la baja de 200 productos por rotura (usando ajuste(-200)) \r\n   y volver a mostrar su estado.\r\nMostrar el precio de lista y el precio de contado ante la consulta de un cliente.
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

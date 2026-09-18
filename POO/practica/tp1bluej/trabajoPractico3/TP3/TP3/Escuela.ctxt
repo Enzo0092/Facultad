@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sun Aug 30 13:36:42 ART 2026
+comment0.target=Escuela
+comment0.text=\r\n Representa una escuela que puede emitir recibos de sueldo de sus docentes..\r\n\r\n @author Francisco Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombre p_domicilio p_director
+comment1.target=Escuela(java.lang.String, java.lang.String, java.lang.String)
+comment1.text=\r\n Construye una escuela con el nombre, domicilio y director indicados.\r\n\r\n @param p_nombre nombre de la escuela.\r\n @param p_domicilio domicilio de la escuela.\r\n @param p_director director de la escuela.\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=\r\n Establece el nombre de la escuela.\r\n\r\n @param p_nombre nombre de la escuela.\r\n
+comment3.params=p_domicilio
+comment3.target=void setDomicilio(java.lang.String)
+comment3.text=\r\n Establece el domicilio de la escuela..\r\n\r\n @param p_domicilio domicilio de la escuela.\r\n
+comment4.params=p_director
+comment4.target=void setDirector(java.lang.String)
+comment4.text=\r\n Establece el director de la escuela.\r\n\r\n @param p_director director de la escuela.\r\n
+comment5.target=java.lang.String getNombre()
+comment5.text=\r\n Obtiene el nombre de la escuela.\r\n\r\n @return nombre de la escuela.\r\n
+comment6.target=java.lang.String getDomicilio()
+comment6.text=\r\n Obtiene el domicilio de la escuela.\r\n\r\n @return domicilio de la escuela.\r\n
+comment7.target=java.lang.String getDirector()
+comment7.text=\r\n Obtiene el nombre del director de la escuela.\r\n\r\n @return nombre del director de la escuela.\r\n
+comment8.params=p_docente
+comment8.target=void imprimirRecibo(Docente)
+comment8.text=\r\n Imprime el recibo de sueldo de un docente.\r\n\r\n @param p_docente docente cuyo recibo se desea imprimir.\r\n
+numComments=9

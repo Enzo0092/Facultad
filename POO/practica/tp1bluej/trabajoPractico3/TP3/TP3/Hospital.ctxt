@@ -1,0 +1,21 @@
+#BlueJ class context
+#Thu Sep 03 00:22:41 ART 2026
+comment0.target=Hospital
+comment0.text=\r\n Representa un hospital y su director.\r\n\r\n @author Francisco Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombreHospital p_nombreDirector
+comment1.target=Hospital(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un hospital con el nombre y director indicados.\r\n\r\n @param p_nombreHospital nombre del hospital.\r\n @param p_nombreDirector nombre del director del hospital.\r\n
+comment2.params=p_nombreHospital
+comment2.target=void setNombreHospital(java.lang.String)
+comment2.text=\r\n Establece el nombre del hospital.\r\n\r\n @param p_nombreHospital nombre del hospital.\r\n
+comment3.params=p_nombreDirector
+comment3.target=void setNombreDirector(java.lang.String)
+comment3.text=\r\n Establece el nombre del director del hospital.\r\n\r\n @param p_nombreDirector nombre del director.\r\n
+comment4.target=java.lang.String getNombreHospital()
+comment4.text=\r\n Obtiene el nombre del hospital.\r\n\r\n @return nombre del hospital.\r\n
+comment5.target=java.lang.String getNombreDirector()
+comment5.text=\r\n Obtiene el nombre del director del hospital.\r\n\r\n @return nombre del director.\r\n
+comment6.params=p_paciente
+comment6.target=void consultaDatosFiliatorios(Paciente)
+comment6.text=\r\n Muestra por pantalla los datos filiatorios del paciente.\r\n\r\n @param p_paciente paciente cuyos datos filiatorios se desean consultar.\r\n
+numComments=7

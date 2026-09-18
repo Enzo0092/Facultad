@@ -1,0 +1,33 @@
+#BlueJ class context
+#Mon Sep 14 13:04:02 ART 2026
+comment0.target=Circulo
+comment0.text=\r\n Representa una figura geom\u00E9trica C\u00EDrculo definida por su centro (Punto) y su radio.\r\n \r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
+comment1.params=p_radio p_centro
+comment1.target=Circulo(double, Punto)
+comment1.text=\r\n Constructor expl\u00EDcito que asigna un radio y un objeto Punto como centro.\r\n \r\n @param p_radio Radio del c\u00EDrculo.\r\n @param p_centro Objeto Punto que representa el centro del c\u00EDrculo.\r\n
+comment10.params=p_otroCirculo
+comment10.target=double distanciaA(Circulo)
+comment10.text=\r\n Calcula la distancia entre el centro de este c\u00EDrculo y el de otro c\u00EDrculo.\r\n \r\n @param p_otroCirculo Instancia del c\u00EDrculo a comparar.\r\n @return Distancia entre los centros de ambos c\u00EDrculos.\r\n
+comment11.params=p_otroCirculo
+comment11.target=Circulo elMayor(Circulo)
+comment11.text=\r\n Compara este c\u00EDrculo con otro en funci\u00F3n de su superficie y devuelve el de mayor \u00E1rea.\r\n \r\n @param p_otroCirculo Instancia del c\u00EDrculo a comparar.\r\n @return El objeto Circulo con mayor superficie.\r\n
+comment12.target=void caracteristicas()
+comment12.text=\r\n Imprime en pantalla las caracter\u00EDsticas del c\u00EDrculo, su superficie y per\u00EDmetro.\r\n
+comment2.target=Circulo()
+comment2.text=\r\n Constructor por defecto. Crea un c\u00EDrculo de radio 0 centrado en el origen (0,0).\r\n
+comment3.params=p_radio
+comment3.target=void setRadio(double)
+comment4.params=p_centro
+comment4.target=void setCentro(Punto)
+comment5.target=double getRadio()
+comment5.text=\r\n Obtiene el radio del c\u00EDrculo.\r\n \r\n @return El radio actual.\r\n
+comment6.target=Punto getCentro()
+comment6.text=\r\n Obtiene el objeto Punto que act\u00FAa como centro del c\u00EDrculo.\r\n \r\n @return El punto centro.\r\n
+comment7.params=p_dx p_dy
+comment7.target=void desplazar(double, double)
+comment7.text=\r\n Desplaza el c\u00EDrculo trasladando su punto centro.\r\n \r\n @param p_dx Desplazamiento en el eje X.\r\n @param p_dy Desplazamiento en el eje Y.\r\n
+comment8.target=double perimetro()
+comment8.text=\r\n Calcula el per\u00EDmetro del c\u00EDrculo.\r\n \r\n @return Per\u00EDmetro calculado.\r\n
+comment9.target=double superficie()
+comment9.text=\r\n Calcula la superficie (\u00E1rea) del c\u00EDrculo.\r\n \r\n @return Superficie calculada.\r\n
+numComments=13

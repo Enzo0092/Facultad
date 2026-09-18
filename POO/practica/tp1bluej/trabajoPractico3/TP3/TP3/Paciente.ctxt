@@ -1,0 +1,37 @@
+#BlueJ class context
+#Thu Sep 03 15:31:08 ART 2026
+comment0.target=Paciente
+comment0.text=\r\n Representa los datos de un paciente.\r\n\r\n @author Francisco Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_historiaClinica p_nombre p_domicilio p_localidadNacido p_localidadVive
+comment1.target=Paciente(int, java.lang.String, java.lang.String, Localidad, Localidad)
+comment1.text=\r\n Construye un objeto paciente con los datos indicados.\r\n\r\n @param p_historiaClinica historia clinica del paciente.\r\n @param p_nombre nombre del paciente.\r\n @param p_domicilio domicilio del paciente.\r\n @param p_localidadNacido localidad natal del paciente.\r\n @param p_localidadVive localidad actual del paciente.\r\n
+comment10.target=Localidad getLocalidadNacido()
+comment10.text=\r\n Obtiene la localidad natal del paciente.\r\n\r\n @return localidad natal del paciente.\r\n
+comment11.target=Localidad getLocalidadVive()
+comment11.text=\r\n Obtiene la localidad actual del paciente.\r\n\r\n @return localidad actual del paciente.\r\n
+comment12.target=void mostrarDatosPantalla()
+comment12.text=\r\n Muestra por pantalla los datos del paciente y la localidad donde vive.\r\n
+comment13.target=java.lang.String cadenaDeDatos()
+comment13.text=\r\n Genera una cadena con los datos del paciente y la localidad donde vive.\r\n\r\n @return cadena con los datos del paciente.\r\n
+comment2.params=p_historiaClinica
+comment2.target=void setHistoriaClinica(int)
+comment2.text=\r\n Establece la historia clinica del paciente.\r\n\r\n @param p_historiaClinica historia clinica del paciente.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment3.text=\r\n Establece el nombre del paciente.\r\n\r\n @param p_nombre nombre del paciente.\r\n
+comment4.params=p_domicilio
+comment4.target=void setDomicilio(java.lang.String)
+comment4.text=\r\n Establece el domicilio del paciente.\r\n\r\n @param p_domicilio domicilio del paciente.\r\n
+comment5.params=p_localidadNacido
+comment5.target=void setLocalidadNacido(Localidad)
+comment5.text=\r\n Establece la localidad natal del paciente.\r\n\r\n @param p_localidadNacido localidad natal del paciente.\r\n
+comment6.params=p_localidadVive
+comment6.target=void setLocalidadVive(Localidad)
+comment6.text=\r\n Establece la localidad actual del paciente.\r\n\r\n @param p_localidadVive localidad actual del paciente.\r\n
+comment7.target=int getHistoriaClinica()
+comment7.text=\r\n Obtiene la historia clinica del paciente.\r\n\r\n @return historia clinica.\r\n
+comment8.target=java.lang.String getNombre()
+comment8.text=\r\n Obtiene el nombre del paciente.\r\n\r\n @return nombre del paciente.\r\n
+comment9.target=java.lang.String getDomicilio()
+comment9.text=\r\n Obtiene el domicilio del paciente.\r\n\r\n @return domicilio del paciente.\r\n
+numComments=14

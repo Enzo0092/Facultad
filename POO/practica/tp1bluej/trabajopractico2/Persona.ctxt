@@ -1,0 +1,32 @@
+#BlueJ class context
+#Fri Aug 21 14:37:59 ART 2026
+comment0.target=Persona
+comment0.text=\  \r\n clase que representa a una persona\r\n permite gestionar sus datos personales y calcular su edad\r\n @author Enzo Romero\r\n @version 1.0\r\n     \r\n    \r\n
+comment1.params=p_dni p_nombre p_apellido p_anio
+comment1.target=Persona(int, java.lang.String, java.lang.String, int)
+comment1.text=\ constructor de la clase persona , es un metodo especial\r\n          que se ejecuta cuando instancias un ojeto con la \r\n          palabra reservada new\r\n@param p_dni numero de documento\r\n@param p_nombre nombre de la persona\r\n@param p_apellido apellido de la persona\r\n@param p_anioNacimiento a\u00F1o de la nacimiento de la \r\n          persona\r\n
+comment10.target=int edad()
+comment10.text=\r\n Calcula la edad de la persona en base al a\u00F1o actual.\r\n @return Edad en a\u00F1os cumplidos\r\n
+comment11.target=java.lang.String nomYApe()
+comment11.text=\r\nretrona el nombre dseguido del apellido concateados\r\n@return cadena en el formato nombre y apellido.\r\n\r\n\r\n
+comment12.target=java.lang.String apeyNom()
+comment12.text=\r\nconcatena el apellido y nombre\r\n@return retorna el apellido y nombre\r\n\r\n\r\n
+comment13.target=void mostrar()
+comment13.text=\r\nmuestra por pantalla la informacion completa de la persona\r\nnommbre dni edad y a\u00F1os\r\n\r\n\r\n\r\n
+comment2.params=p_dni
+comment2.target=void setDNI(int)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_apellido
+comment4.target=void setApellido(java.lang.String)
+comment5.params=p_anio
+comment5.target=void setAnioNacimiento(int)
+comment6.target=int getDNI()
+comment6.text=\r\nobtiene el dni\r\n@return numero de dni.\r\n\r\n\r\n
+comment7.target=java.lang.String getNombre()
+comment7.text=\r\nobtiene el nombre\r\n@return nombre.\r\n\r\n\r\n
+comment8.target=java.lang.String getApellido()
+comment8.text=\r\nobtiene el apellido\r\n@return apellido.\r\n\r\n\r\n
+comment9.target=int getAnioNacimiento()
+comment9.text=\r\nobtiene el a\u00F1o de nacimiento\r\n@return anioNacimiento.\r\n\r\n\r\n
+numComments=14

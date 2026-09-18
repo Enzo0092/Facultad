@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Aug 23 17:33:33 ART 2026
+comment0.target=LaboratorioTest
+comment0.text=\r\nclase ejecutable para la clase laboratorio\r\ncrea on objeto de tipo laboratorio llamado laboratorio1  y en el la instanciacion \r\nse le pasan los parametros de forma estatica\r\n\r\n\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

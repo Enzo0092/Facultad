@@ -1,0 +1,37 @@
+#BlueJ class context
+#Sun Aug 23 17:32:10 ART 2026
+comment0.target=Laboratorio
+comment0.text=\r\n .\r\n \r\n @author (Enzo Romero) \r\n @version 1.0\r\n
+comment1.params=p_nombre p_domicilio p_telefono p_compraMinima p_diaEntrega
+comment1.target=Laboratorio(java.lang.String, java.lang.String, java.lang.String, int, int)
+comment1.text=constructor uno \r\nconstructores sobre cargados\r\n@param p_nombre nombre\r\n@param p_domicilio\r\n@param p_ telefono telefono\r\n@param p_ compra minima\r\n@param p_diaEntrega\r\n
+comment10.target=java.lang.String getTelefono()
+comment10.text=\r\n get telefono devuelve el atributo telefono\r\n
+comment11.target=int getCompraMinima()
+comment11.text=\r\n get compraminima() devuelve el atributo compra minima\r\n       \r\n
+comment12.target=int getDiaEntrega()
+comment13.params=p_compraMinima
+comment13.target=void nuevaCompraMinima(int)
+comment13.text=\r\n asigna mediante el set el parametro p_compraMinima al atributo compraMinima\r\n
+comment14.params=p_diaEntrega
+comment14.target=void nuevoDiaEntrega(int)
+comment14.text=\r\n asigna mediante el set el parametro p_diaEntrega al atributo diaEntrega\r\n
+comment15.target=java.lang.String mostrar()
+comment15.text=\r\n devuelve un String mostrando el nombre y domiciolio mas el telefono del laboratorio\r\n
+comment2.params=p_nombre p_domicilio p_telefono
+comment2.target=Laboratorio(java.lang.String, java.lang.String, java.lang.String)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_domicilio
+comment4.target=void setDomicilio(java.lang.String)
+comment5.params=p_telefono
+comment5.target=void setTelefono(java.lang.String)
+comment6.params=p_compraMinima
+comment6.target=void setCompraMinima(int)
+comment7.params=p_diaEntrega
+comment7.target=void setDiaEntrega(int)
+comment8.target=java.lang.String getNombre()
+comment8.text=\r\nget nombre devuelve el nombre \r\n
+comment9.target=java.lang.String getDomicilio()
+comment9.text=\r\ngetdomicilio devuelve el atributo domicilio\r\n\r\n
+numComments=16

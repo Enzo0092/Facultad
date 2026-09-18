@@ -1,0 +1,36 @@
+#BlueJ class context
+#Thu Sep 03 01:39:32 ART 2026
+comment0.target=CuentaBancaria
+comment0.text=\ \r\n Representa una cuenta bancaria. \r\n \r\n @author Francisco Morales \r\n @version 1.0 - 2026 \r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CuentaBancaria(int, Persona)
+comment1.text=\ \r\n Construye una cuenta bancaria con el n\u00FAmero de cuenta y titular indicados, \r\n estableciendo el saldo inicial en cero. \r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta bancaria. \r\n @param p_titular persona titular de la cuenta. \r\n
+comment10.params=p_importe
+comment10.target=double extraer(double)
+comment10.text=\ \r\n Extrae un importe de la cuenta y devuelve el saldo resultante. \r\n \r\n @param p_importe importe que se extrae. \r\n @return saldo resultante despu\u00E9s de la extracci\u00F3n. \r\n
+comment11.target=void mostrar()
+comment11.text=\ \r\n Muestra por pantalla los datos principales de la cuenta bancaria. \r\n
+comment12.target=java.lang.String toString()
+comment12.text=\ \r\n Obtiene una representaci\u00F3n textual de la cuenta bancaria. \r\n \r\n @return n\u00FAmero de cuenta, titular y saldo separados por espacios. \r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CuentaBancaria(int, Persona, double)
+comment2.text=\ \r\n Construye una cuenta bancaria con el n\u00FAmero de cuenta, titular y saldo indicados. \r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta bancaria. \r\n @param p_titular persona titular de la cuenta. \r\n @param p_saldo saldo inicial de la cuenta. \r\n
+comment3.params=p_nroCuenta
+comment3.target=void setNroCuenta(int)
+comment3.text=\ \r\n Establece el n\u00FAmero de cuenta. \r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta bancaria. \r\n
+comment4.params=p_titular
+comment4.target=void setTitular(Persona)
+comment4.text=\ \r\n Establece el titular de la cuenta. \r\n \r\n @param p_titular persona titular de la cuenta. \r\n
+comment5.params=p_saldo
+comment5.target=void setSaldo(double)
+comment5.text=\ \r\n Establece el saldo de la cuenta. \r\n \r\n @param p_saldo saldo de la cuenta. \r\n
+comment6.target=int getNroCuenta()
+comment6.text=\ \r\n Obtiene el n\u00FAmero de cuenta.\r\n \r\n @return n\u00FAmero de la cuenta bancaria.\r\n
+comment7.target=Persona getTitular()
+comment7.text=\ \r\n Obtiene el titular de la cuenta. \r\n \r\n @return persona titular de la cuenta.\r\n
+comment8.target=double getSaldo()
+comment8.text=\ \r\n Obtiene el saldo actual de la cuenta. \r\n \r\n @return saldo actual de la cuenta. \r\n
+comment9.params=p_importe
+comment9.target=double depositar(double)
+comment9.text=\ \r\n Deposita un importe en la cuenta y devuelve el saldo resultante. \r\n \r\n @param p_importe importe que se deposita. \r\n @return saldo resultante despu\u00E9s del dep\u00F3sito. \r\n
+numComments=13

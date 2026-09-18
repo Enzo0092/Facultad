@@ -1,0 +1,35 @@
+#BlueJ class context
+#Mon Sep 14 19:46:49 ART 2026
+comment0.target=Rectangulo
+comment0.text=\r\n clase que permite modelar la clase rectangulo.\r\n \r\n @author Enzo Romero \r\n @version 1.0 2026\r\n
+comment1.params=p_origen p_ancho p_alto
+comment1.target=Rectangulo(Punto, double, double)
+comment1.text=\r\n constructor 1 asigna el origen, el ancho y el alto\r\n @param p_origen de tipo punto asigna el origen\r\n @param p_ancho de tipo double asigna el ancho del rectangulo\r\n @param p_alto de tipo double asigna el alto el rectangulo\r\n \r\n
+comment10.target=double perimetro()
+comment10.text=\r\n calcula el perimetro del rectangulo\r\n @return perimetro ( 2* alto + 2*ancho)\r\n\r\n
+comment11.target=double superficie()
+comment11.text=\r\n calcula la superficie (area ) del rectangulo\r\n @return superficie (ancho*alto)\r\n
+comment12.target=void caracteristicas()
+comment12.text=\r\nimprime en pantalla las caracteristicas del rectangulo con el formato deseado\r\n\r\n
+comment13.params=otroRectangulo
+comment13.target=double distanciaA(Rectangulo)
+comment13.text=\ \r\n calcula la distancia entre el origen de este rectangulo y el origen de otro \r\n @param otro rectanculo instancia dle rectangulo a comparar\r\n @return dsitnacia entre los puntos de origen \r\n
+comment14.params=otroRectangulo
+comment14.target=Rectangulo elMayor(Rectangulo)
+comment14.text=\r\n compara las superficies y devuelve el rectangulo de mayor area\r\n \r\n @param otro recntaculo instancia a comparar\r\n @return el rectangulo con mayor superficie\r\n\r\n
+comment2.params=p_ancho p_alto
+comment2.target=Rectangulo(double, double)
+comment2.text=constructor 2 asgina el ancho y el alto \r\n asigna el origen por defecto \r\n@param p_ancho de tipo double asigna el ancho \r\n@param p_alto de tipo double asigna el alto \r\n
+comment3.params=p_ancho
+comment3.target=void setAncho(double)
+comment4.params=p_alto
+comment4.target=void setAlto(double)
+comment5.params=p_origen
+comment5.target=void setOrigen(Punto)
+comment6.target=double getAlto()
+comment7.target=double getAncho()
+comment8.target=Punto getOrigen()
+comment9.params=p_dx p_dy
+comment9.target=void desplazar(double, double)
+comment9.text=\r\n desplaza el rectangulo trascolando su pounto de oirgein\r\n \r\n @param p_dx desplazamiento en el eje x.\r\n @param p_dy desplazamiento en el eje y .\r\n \r\n
+numComments=15

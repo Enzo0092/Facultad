@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Aug 21 14:39:18 ART 2026
+comment0.target=PersonaTest
+comment0.text=\r\nclase ejecutable para la clase persona\r\ncrea on objeto de tipo persona llamado persona1 y en el la instanciacion \r\nse le pasan los parametros de forma estatica\r\n\r\n\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

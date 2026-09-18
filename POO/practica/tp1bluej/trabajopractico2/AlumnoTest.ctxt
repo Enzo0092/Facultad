@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Aug 23 17:37:52 ART 2026
+comment0.target=AlumnoTest
+comment0.text=\r\n Clase ejecutable para probar el funcionamiento de la clase Alumno.\r\n Recibe los datos del estudiante por argumentos de la l\u00EDnea de comandos (args),\r\n instancia el objeto y muestra sus resultados por pantalla.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Punto de entrada principal a la aplicaci\u00F3n.\r\n \r\n @param args Arreglo de cadenas con los par\u00E1metros de entrada requeridos\:\r\n             {LU, Nombre, Apellido, Nota1, Nota2}.\r\n
+numComments=2

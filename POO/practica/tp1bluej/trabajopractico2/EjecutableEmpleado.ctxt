@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Aug 23 17:38:47 ART 2026
+comment0.target=EjecutableEmpleado
+comment0.text=\r\n Clase ejecutable para probar la clase Empleado usando ingreso por teclado.\r\n \r\n @author Enzo Romero\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

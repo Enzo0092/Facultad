@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sat Aug 29 23:50:18 ART 2026
+comment0.target=Circulo
+comment0.text=\r\n Representa un c\u00EDrculo en el plano.\r\n\r\n @author Francisco Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_radio p_centro
+comment1.target=Circulo(double, Punto)
+comment1.text=\ \r\n Construye un c\u00EDrculo con el radio y centro indicados. \r\n \r\n @param p_radio radio del c\u00EDrculo. \r\n @param p_centro punto que representa el centro del c\u00EDrculo. \r\n
+comment10.target=double superficie()
+comment10.text=\ \r\n Calcula la superficie del c\u00EDrculo. \r\n \r\n @return superficie del c\u00EDrculo. \r\n
+comment11.params=otroCirculo
+comment11.target=double distanciaA(Circulo)
+comment11.text=\ \r\n Calcula la distancia entre este c\u00EDrculo y otro c\u00EDrculo. \r\n \r\n @param otroCirculo c\u00EDrculo con el cual se calcula la distancia. \r\n @return distancia entre los centros de ambos c\u00EDrculos. \r\n
+comment12.params=otroCirculo
+comment12.target=Circulo elMayor(Circulo)
+comment12.text=\ \r\n Determina cu\u00E1l de los dos c\u00EDrculos posee mayor superficie. \r\n \r\n @param otroCirculo c\u00EDrculo que se compara con este c\u00EDrculo. \r\n @return c\u00EDrculo que posee mayor superficie. \r\n
+comment2.target=Circulo()
+comment2.text=\ \r\n Construye un c\u00EDrculo con radio 0 y centro ubicado en el origen. \r\n
+comment3.params=p_radio
+comment3.target=void setRadio(double)
+comment3.text=\ \r\n Establece el radio del c\u00EDrculo. \r\n \r\n @param p_radio radio del c\u00EDrculo. \r\n
+comment4.params=p_centro
+comment4.target=void setCentro(Punto)
+comment4.text=\ \r\n Establece el centro del c\u00EDrculo. \r\n \r\n @param p_centro punto que representa el centro del c\u00EDrculo. \r\n
+comment5.target=double getRadio()
+comment5.text=\ \r\n Obtiene el radio del c\u00EDrculo. \r\n \r\n @return radio del c\u00EDrculo. \r\n
+comment6.target=Punto getCentro()
+comment6.text=\ \r\n Obtiene el centro del c\u00EDrculo. \r\n \r\n @return centro del c\u00EDrculo. \r\n
+comment7.params=p_dx p_dy
+comment7.target=void desplazar(double, double)
+comment7.text=\ \r\n Desplaza el centro del c\u00EDrculo seg\u00FAn las distancias indicadas. \r\n \r\n @param p_dx desplazamiento sobre el eje X. \r\n @param p_dy desplazamiento sobre el eje Y. \r\n
+comment8.target=void caracteristicas()
+comment8.text=\ \r\n Muestra las caracter\u00EDsticas del c\u00EDrculo. \r\n
+comment9.target=double perimetro()
+comment9.text=\ \r\n Calcula el per\u00EDmetro del c\u00EDrculo. \r\n \r\n @return per\u00EDmetro del c\u00EDrculo. \r\n
+numComments=13

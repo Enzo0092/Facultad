@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Aug 23 17:34:44 ART 2026
+comment0.target=ClienteTest
+comment0.text=\ \r\nclase ejecutable para probar la instanciacion de cliente\r\nutilizando la entrada de parametros desde el argumento del metodo main\r\n@autor Enzo Romero\r\n\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2
