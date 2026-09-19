@@ -1,0 +1,35 @@
+#BlueJ class context
+#Fri Sep 18 18:24:08 ART 2026
+comment0.target=Pedido
+comment0.text=\r\n clase que representa un pedidio realizado por un cliente\r\n administra una coleccion de producots mediante un Array List\r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_fecha p_cliente p_productos
+comment1.target=Pedido(java.util.Calendar, Cliente, java.util.ArrayList)
+comment1.text=\r\n constructor que recibe la lista completa de producos\r\n @param p_fecha fecha en la que se realiza el pedido\r\n @param p_cliente cliente que realiza el pedido\r\n @para p_productos lista dinamicamente instanciada con los productos\r\n
+comment10.params=p_producto
+comment10.target=boolean quitarProducto(Producto)
+comment10.text=\r\n @param p_producto Objeto Pruducto a remover\r\n @return true si el producto existia y se removio\r\n
+comment11.target=double totalAlContado()
+comment11.text=\r\n calcula la suma de los precios al contado de todos los productos\r\n @return el importe total al contado\r\n
+comment12.target=double totalFinanciado()
+comment12.text=\r\n calcula la suma de los precios de lista 8 financiados) de todos los \r\n producos del pedido\r\n @return el importe total financiado\r\n
+comment13.target=void mostrarPedido()
+comment13.text=\ muestra por consola el detalle competo del pedido\r\n incluyendo fecha ,datos del cliente la lista de productos\r\n mediante mostrarLinea()y los totales finales\r\n
+comment2.params=p_fecha p_cliente p_producto
+comment2.target=Pedido(java.util.Calendar, Cliente, Producto)
+comment2.text=\r\n constructor que recibe un solo producto inicial\r\n inicializa el array list y le agrega el producto recibido\r\n @param p_fecha fecha en la que se realiza el pedido \r\n @param p_cliente cliente que realiza el pedido\r\n @p_producto primer producto a incluir en el pedido\r\n
+comment3.params=p_fecha
+comment3.target=void setFecha(java.util.Calendar)
+comment4.params=p_cliente
+comment4.target=void setCliente(Cliente)
+comment5.params=p_productos
+comment5.target=void setProductos(java.util.ArrayList)
+comment6.target=java.util.Calendar getFecha()
+comment6.text=\r\n @return la fecha del pedido\r\n
+comment7.target=Cliente getCliente()
+comment7.text=\r\n @return el cliente asociado al pedido\r\n
+comment8.target=java.util.ArrayList getProductos()
+comment8.text=\r\n @return la lista e productos del pedido\r\n
+comment9.params=p_producto
+comment9.target=boolean agregarProducto(Producto)
+comment9.text=\r\n agrega unproducto a la lista del pedido\r\n @param p_producto objeto producto a incorporar\r\n @return true si se agrego correctamente\r\n \r\n
+numComments=14
