@@ -1,5 +1,5 @@
 #BlueJ class context
-#Fri Sep 18 18:24:08 ART 2026
+#Sat Sep 19 15:59:48 ART 2026
 comment0.target=Producto
 comment0.text=\r\n Representa un producto comercializado por la droguer\u00EDa y sus condiciones de stock y precio.\r\n \r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
 comment1.params=p_codigo p_rubro p_desc p_costo p_porcPtoRepo p_existMinima p_lab

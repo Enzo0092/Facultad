@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Sep 20 17:59:04 ART 2026
+comment0.target=GestionComercio
+comment0.text=\r\n Clase ejecutable para probar la gesti\u00F3n de empleados en el Comercio.\r\n \r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

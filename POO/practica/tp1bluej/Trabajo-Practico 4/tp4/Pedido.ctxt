@@ -1,5 +1,5 @@
 #BlueJ class context
-#Fri Sep 18 18:24:08 ART 2026
+#Sat Sep 19 17:23:23 ART 2026
 comment0.target=Pedido
 comment0.text=\r\n clase que representa un pedidio realizado por un cliente\r\n administra una coleccion de producots mediante un Array List\r\n @author Enzo Romero\r\n @version 1.0\r\n
 comment1.params=p_fecha p_cliente p_productos
@@ -13,7 +13,7 @@ comment11.text=\r\n calcula la suma de los precios al contado de todos los produ
 comment12.target=double totalFinanciado()
 comment12.text=\r\n calcula la suma de los precios de lista 8 financiados) de todos los \r\n producos del pedido\r\n @return el importe total financiado\r\n
 comment13.target=void mostrarPedido()
-comment13.text=\ muestra por consola el detalle competo del pedido\r\n incluyendo fecha ,datos del cliente la lista de productos\r\n mediante mostrarLinea()y los totales finales\r\n
+comment13.text=\r\n Muestra por consola el detalle completo del pedido respetando el formato requerido.\r\n
 comment2.params=p_fecha p_cliente p_producto
 comment2.target=Pedido(java.util.Calendar, Cliente, Producto)
 comment2.text=\r\n constructor que recibe un solo producto inicial\r\n inicializa el array list y le agrega el producto recibido\r\n @param p_fecha fecha en la que se realiza el pedido \r\n @param p_cliente cliente que realiza el pedido\r\n @p_producto primer producto a incluir en el pedido\r\n

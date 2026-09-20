@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Sep 20 17:25:53 ART 2026
+comment0.target=TomaPedido
+comment0.text=\r\n Clase ejecutable que simula la toma de un pedido para un cliente\r\n lista los totales\r\n quieta un producto del pedidovuelve a listar los totales\r\n y vuelve a mostrar el detalle.\r\n \r\n @author Enzo\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Fri Sep 18 18:24:08 ART 2026
+#Sat Sep 19 15:59:48 ART 2026
 comment0.target=Laboratorio
 comment0.text=\r\n Representa un laboratorio proveedor de la droguer\u00EDa con sus datos de contacto y condiciones comerciales.\r\n \r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
 comment1.params=p_nombre p_domicilio p_telefono p_compraMinima p_diaEntrega

@@ -1,0 +1,30 @@
+#BlueJ class context
+#Sun Sep 20 17:16:20 ART 2026
+comment0.target=CuentaBancaria
+comment0.text=\r\n Representa una cuenta bancaria asociada a una persona (titular).\r\n \r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CuentaBancaria(int, Persona)
+comment1.text=\r\n Constructor expl\u00EDcito que exige un titular al momento de crearse.\r\n \r\n @param p_nroCuenta N\u00FAmero identificador de la cuenta.\r\n @param p_titular Objeto Persona que ser\u00E1 el due\u00F1o de la cuenta.\r\n
+comment10.params=p_importe
+comment10.target=void extraer(double)
+comment10.text=\r\n Descuenta del saldo el importe indicado.\r\n \r\n @param p_importe Monto a extraer.\r\n
+comment11.target=void mostrar()
+comment11.text=\r\n Muestra por consola la informaci\u00F3n de la cuenta y su titular.\r\n
+comment12.target=java.lang.String toCadena()
+comment12.text=\r\n Devuelve una cadena representativa con el n\u00FAmero de cuenta y el nombre del titular.\r\n \r\n @return Cadena formateada para los reportes.\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CuentaBancaria(int, Persona, double)
+comment2.text=\r\n Constructor sobrecargado con saldo inicial.\r\n \r\n @param p_nroCuenta N\u00FAmero identificador de la cuenta.\r\n @param p_titular Objeto Persona que ser\u00E1 el due\u00F1o de la cuenta.\r\n @param p_saldo Monto inicial depositado.\r\n
+comment3.params=p_nroCuenta
+comment3.target=void setNroCuenta(int)
+comment4.params=p_saldo
+comment4.target=void setSaldo(double)
+comment5.params=p_titular
+comment5.target=void setTitular(Persona)
+comment6.target=int getNroCuenta()
+comment7.target=double getSaldo()
+comment8.target=Persona getTitular()
+comment9.params=p_importe
+comment9.target=void depositar(double)
+comment9.text=\r\n Incrementa el saldo actual de la cuenta.\r\n \r\n @param p_importe Monto a depositar.\r\n
+numComments=13

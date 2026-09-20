@@ -29,7 +29,7 @@ public class ArrayDePuntos{
         for (int i=0; i< puntos.length;i++){
             System.out.println("punto" +(i+1) + ":");
             System.out.print("ingrese coordenda x:");
-            double x= scanner.nextDouble();
+            double x = scanner.nextDouble();
             System.out.print("ingrese coordenada y :");
             double y= scanner.nextDouble();
             // instanciacion de cada objeto punto dentro del arreglo

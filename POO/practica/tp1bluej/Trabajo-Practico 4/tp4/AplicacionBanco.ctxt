@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Sep 20 17:23:32 ART 2026
+comment0.target=AplicacionBanco
+comment0.text=\r\n Clase ejecutable para probar la clase Banco instanciando objetos Empleado \r\n y CuentaBancaria con las funcionalidades del Ejercicio 4.\r\n \r\n @author Enzo Romero\r\n @version 2.0 - 2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

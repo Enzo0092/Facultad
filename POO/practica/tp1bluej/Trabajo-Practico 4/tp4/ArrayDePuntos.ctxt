@@ -1,5 +1,5 @@
 #BlueJ class context
-#Fri Sep 18 16:34:30 ART 2026
+#Sun Sep 20 17:25:49 ART 2026
 comment0.target=ArrayDePuntos
 comment0.text=\r\n permite crear un contenedor estatico de 6 elementos llamado  punto \r\n agregar como elementos instancia de la clase punto ingresando por teclado\r\n recorrer el array e imprimir las coordenadas de cada elemento usando el metodo prrevisto\r\n  permite el calculo de distancia entre elementos consecutivos\r\n@author enzo romero\r\n @version 1.0\r\n \r\n
 comment1.params=args

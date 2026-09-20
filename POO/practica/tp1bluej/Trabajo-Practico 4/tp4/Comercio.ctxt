@@ -1,0 +1,34 @@
+#BlueJ class context
+#Sun Sep 20 17:49:42 ART 2026
+comment0.target=Comercio
+comment0.text=\r\n Gestiona los empleados del comercio utilizando un HashMap (CUIL -> Empleado).\r\n \r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombre
+comment1.target=Comercio(java.lang.String)
+comment10.params=p_cuil
+comment10.target=boolean esEmpleado(long)
+comment10.text=\r\n Consulta si un empleado es parte de la empresa buscando por su CUIL.\r\n
+comment11.params=p_cuil
+comment11.target=Empleado buscarEmpleado(long)
+comment11.text=\r\n Busca y devuelve un empleado determinado seg\u00FAn su CUIL.\r\n
+comment12.params=p_cuil
+comment12.target=void sueldoNeto(long)
+comment12.text=\r\n Visualiza por pantalla el sueldo neto del empleado cuyo CUIL coincide con el par\u00E1metro.\r\n
+comment13.target=void nomina()
+comment13.text=\r\n Emite la n\u00F3mina de empleados con el formato requerido para la AFIP.\r\n
+comment2.params=p_nombre p_empleados
+comment2.target=Comercio(java.lang.String, java.util.HashMap)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_empleados
+comment4.target=void setEmpleados(java.util.HashMap)
+comment5.target=java.lang.String getNombre()
+comment6.target=java.util.HashMap getEmpleados()
+comment7.params=p_empleado
+comment7.target=void altaEmpleadoo(Empleado)
+comment7.text=\r\n Da de alta un empleado registr\u00E1ndolo en el mapa con su CUIL como clave.\r\n Nota\: En el diagrama figura como "altaEmpleadoo".\r\n
+comment8.params=p_cuil
+comment8.target=Empleado bajaEmpleado(long)
+comment8.text=\r\n Da de baja a un empleado mediante su CUIL.\r\n \r\n @param p_cuil N\u00FAmero de CUIL del empleado a eliminar.\r\n @return El objeto Empleado removido o null si no exist\u00EDa.\r\n
+comment9.target=int cantidadDeEmpleados()
+comment9.text=\r\n Devuelve la cantidad de empleados contratados.\r\n
+numComments=14

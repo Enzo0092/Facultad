@@ -1,4 +1,5 @@
 import java.util.Calendar;
+import java.util.Locale; //para que conozca el idioma español
 import java.util.ArrayList;
 /**
  * clase que representa un pedidio realizado por un cliente
@@ -113,26 +114,28 @@ public class Pedido{
     }
     return total;
     }
-    // metodos de mostrado 
-    /** muestra por consola el detalle competo del pedido
-     * incluyendo fecha ,datos del cliente la lista de productos
-     * mediante mostrarLinea()y los totales finales
+    /**
+     * Muestra por consola el detalle completo del pedido respetando el formato requerido.
      */
-    public void mostrarPedido(){
-        int dia=this.getFecha().get(Calendar.DATE);
-        int mes = this.getFecha().get(Calendar.MONTH)+1;
-        int anio= this.getFecha().get(Calendar.YEAR);
-        System.out.println("****** Detalle del Pedido ******");
-        System.out.println("Fecha: " + dia + "/" + mes + "/" + anio);
-        System.out.println("Cliente: " + this.getCliente().nomYApe());
-        System.out.println("------------------------------------------------");
-        for (Object obj: this.getProductos()){
-            Producto prod= (Producto) obj;
+    public void mostrarPedido() {
+        int dia = this.getFecha().get(Calendar.DATE);
+        // Obtiene el nombre del mes en español directamente desde Calendar
+        String mes = this.getFecha().getDisplayName(Calendar.MONTH, Calendar.LONG, new Locale("es", "ES"));
+        int anio = this.getFecha().get(Calendar.YEAR);
+
+        System.out.println("****** Detalle del pedido ****** Fecha: " + dia + " de " + mes + " de " + anio + ".");
+        System.out.println("Producto\tPrecio Lista\tPrecio Contado");
+        System.out.println("----------------------------------------");
+//bucle for each  recoore uno a uno todos los objetos almacenados en la de productos
+        for (Object obj : this.getProductos()) {
+//casteo explicito :convierte el objeto generico (objetc) al tipo especifico (producto)
+            Producto prod = (Producto) obj;
+//muestra por pantalla la linea de detalle de cada producto 
             System.out.println(prod.mostrarLinea());
         }
-        System.out.println("------------------------------------------------");
-        System.out.println("Total Contado: $" + this.totalAlContado());
-        System.out.println("Total Financiado: $" + this.totalFinanciado());
+
+        System.out.println("----------------------------------------");
+        System.out.println("***  Total ------ " + this.totalFinanciado() + "\t" + this.totalAlContado());
     }
 }
 

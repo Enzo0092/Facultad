@@ -1,5 +1,5 @@
 #BlueJ class context
-#Fri Sep 18 18:24:08 ART 2026
+#Sat Sep 19 15:59:48 ART 2026
 comment0.target=Cliente
 comment0.text=\r\ndesarrollo de la clase cliente del putno3 del tp2\r\nabstraccion \:\r\nse modela la enttidad cliente del mundo real conservando \r\nunicamente los atributos esenciales  para este problema (dni, nombre apellido saldo)\r\n\r\n \r\n @author (Enzo romero ) \r\n @version (a version number or a date)\r\n
 comment1.params=p_dni p_apellido p_nombre p_importe
