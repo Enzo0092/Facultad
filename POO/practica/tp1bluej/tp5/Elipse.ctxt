@@ -1,0 +1,29 @@
+#BlueJ class context
+#Thu Oct 08 22:18:28 ART 2026
+comment0.target=Elipse
+comment0.text=\r\n clase elipse representa la clase padre de la subclase circulo\r\n @author enzo romero\r\n @version 1.0\r\n
+comment1.params=p_centro p_sEjemayor p_sEjeMenor
+comment1.target=Elipse(Punto, double, double)
+comment10.params=otraElipse
+comment10.target=double distanciaA(Elipse)
+comment10.text=\ \r\n Calcula la distancia entre este c\u00EDrculo y otro c\u00EDrculo. \r\n \r\n @param otroCirculo c\u00EDrculo con el cual se calcula la distancia. \r\n @return distancia entre los centros de ambos c\u00EDrculos. \r\n
+comment11.params=otraElipse
+comment11.target=Elipse elMayor(Elipse)
+comment11.text=\ \r\n Determina cu\u00E1l de los dos c\u00EDrculos posee mayor superficie. \r\n \r\n @param otroCirculo c\u00EDrculo que se compara con este c\u00EDrculo. \r\n @return c\u00EDrculo que posee mayor superficie. \r\n
+comment12.target=double superficie()
+comment12.text=\ \r\n Calcula la superficie del c\u00EDrculo. \r\n \r\n @return superficie del c\u00EDrculo. \r\n
+comment13.target=void caracteristicas()
+comment2.params=p_sEjemayor
+comment2.target=void setSEjeMayor(double)
+comment3.params=p_sEjeMenor
+comment3.target=void setSEjeMenor(double)
+comment4.params=p_centro
+comment4.target=void setCentro(Punto)
+comment5.target=double getSEjeMayor()
+comment6.target=double getSEjeMenor()
+comment7.target=Punto getCentro()
+comment8.target=java.lang.String nombreFigura()
+comment9.params=p_dx p_dy
+comment9.target=void desplazar(double, double)
+comment9.text=\ \r\n Desplaza el centro del c\u00EDrculo seg\u00FAn las distancias indicadas. \r\n \r\n @param p_dx desplazamiento sobre el eje X. \r\n @param p_dy desplazamiento sobre el eje Y. \r\n
+numComments=14

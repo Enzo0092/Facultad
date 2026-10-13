@@ -1,0 +1,7 @@
+#BlueJ class context
+#Thu Oct 08 22:19:40 ART 2026
+comment0.target=PruebaElipseCirculo
+comment0.text=\r\n Clase ejecutable para probar las clases Elipse y Circulo.\r\n \r\n @author Enzo Romero\r\n @version 1.0 (TP5 - Ejercicio 4)\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

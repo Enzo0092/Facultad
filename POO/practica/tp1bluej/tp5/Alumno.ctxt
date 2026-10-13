@@ -1,0 +1,28 @@
+#BlueJ class context
+#Thu Oct 08 21:21:49 ART 2026
+comment0.target=Alumno
+comment0.text=\r\n La clase Alumno representa a un estudiante universitario.\r\n Permite gestionar sus datos personales, calificaciones, c\u00E1lculo de promedio\r\n y determinar su condici\u00F3n de aprobaci\u00F3n.\r\n hereda de la clase Persona(subclase) aplicando el principio de la subclsificacion\r\n \r\n @author Enzo Romero\r\n @version 1.0 (tp5 herencia )\r\n
+comment1.params=p_dni p_nombre p_apellido p_anio p_LU
+comment1.target=Alumno(int, java.lang.String, java.lang.String, int, int)
+comment1.text=\r\n Constructor de la clase Alumno.\r\n invoca al constructor de la super clase (persona ) mediante super \r\n para inicializar los atributos heresdados antes de guardar los propios\r\n @param p_dni dni de la persona ( heredado)\r\n @param p_nombre nombre de la persona (heredado)\r\n @param p_apellido apellido de la persona ( heredado)\r\n @p_anio a\u00F1o de nacimiento (hereedado)\r\n @param p_LU Libreta Universitaria del alumno.\r\n\r\n
+comment10.target=boolean aprueba()
+comment10.text=\r\n Determina si el alumno aprueba la materia.\r\n Requiere un promedio mayor o igual a 7.0 y notas individuales de al menos 6.0.\r\n \r\n @return true si cumple los criterios de aprobaci\u00F3n, false en caso contrario.\r\n
+comment11.target=java.lang.String leyenda()
+comment11.text=\r\n Genera la cadena de texto con la condici\u00F3n final del alumno.\r\n \r\n @return "APROBADO" o "DESAPROBADO" seg\u00FAn corresponda.\r\n
+comment12.target=void mostrar()
+comment12.text=\r\nredefine (override) el metodo mostrar () de la superclase Persona.\r\nutilizar super.mostrar() para reutilizar la impresion de datos personaes\r\ny lu ego agrega la informacion propia del estudiante.\r\n
+comment2.params=p_dni p_nombre p_apellido p_anio p_LU p_nota1 p_nota2
+comment2.target=Alumno(int, java.lang.String, java.lang.String, int, int, double, double)
+comment2.text=\r\n constructor sobrecargado con notas inicialies\r\n
+comment3.params=p_LU
+comment3.target=void setLU(int)
+comment4.target=int getLU()
+comment5.params=p_nota1
+comment5.target=void setNota1(double)
+comment6.target=double getNota1()
+comment7.params=p_nota2
+comment7.target=void setNota2(double)
+comment8.target=double getNota2()
+comment9.target=double promedio()
+comment9.text=\r\n Calcula el promedio de las dos notas del alumno.\r\n \r\n @return El valor del promedio como double.\r\n
+numComments=13
