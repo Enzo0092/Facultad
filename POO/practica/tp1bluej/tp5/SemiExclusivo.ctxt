@@ -1,0 +1,11 @@
+#BlueJ class context
+#Wed Oct 14 11:19:15 ART 2026
+comment0.target=SemiExclusivo
+comment0.text=\r\n clase Semi Exclusivo hereda casi todo de la superclase cargo\r\n @Author Enzo Romero\r\n @Author Francisco Morales\r\n @version \r\n
+comment1.params=p_nombreCargo p_sueldoBasico p_anioIngreso p_horasDeDocencia p_horasDeInvestigacion
+comment1.target=SemiExclusivo(java.lang.String, double, int, int, int)
+comment2.params=p_horasDeInvestigacion
+comment2.target=void setHorasDeInvestigacion(int)
+comment3.target=int getHorasDeInvestigacion()
+comment4.target=void mostrarCargo()
+numComments=5

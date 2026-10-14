@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 13 16:08:57 ART 2026
+#Wed Oct 14 11:03:45 ART 2026
 comment0.target=Cargo
 comment1.params=p_nombreCargo p_sueldoBasico p_anioIngreso p_horasDeDocencia
 comment1.target=Cargo(java.lang.String, double, int, int)
