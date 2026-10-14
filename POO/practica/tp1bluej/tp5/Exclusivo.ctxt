@@ -1,0 +1,14 @@
+#BlueJ class context
+#Tue Oct 13 16:24:50 ART 2026
+comment0.target=Exclusivo
+comment0.text=\r\n clase exclusiva hija de cargo\r\n @author Enzo Romero\r\n @author Morales Francisco\r\n @version 1.0\r\n
+comment1.params=p_nombreCargo p_sueldoBasico p_anioIngreso p_horasDeDocencia p_horasDeInvestigacion p_horasDeExtension
+comment1.target=Exclusivo(java.lang.String, double, int, int, int, int)
+comment2.params=p_horasDeInvestigacion
+comment2.target=void setHorasDeInvestigacion(int)
+comment3.params=p_horasDeExtension
+comment3.target=void setHorasDeExtension(int)
+comment4.target=int getHorasDeInvestigacion()
+comment5.target=int getHorasDeExtension()
+comment6.target=void mostrarCargo()
+numComments=7

@@ -1,0 +1,24 @@
+#BlueJ class context
+#Tue Oct 13 16:08:57 ART 2026
+comment0.target=Cargo
+comment1.params=p_nombreCargo p_sueldoBasico p_anioIngreso p_horasDeDocencia
+comment1.target=Cargo(java.lang.String, double, int, int)
+comment1.text=\r\n constructor de la clase cargo\r\n @param nombre cargo \r\n @param sueldo basico\r\n @param anioIngreso\r\n @param horasDeDocencia\r\n \r\n
+comment10.target=int antiguedad()
+comment10.text=\r\n instancia una varbiale que obtiene la fehca de hoy para hacer una diferencia conel a\u00F1o de hoy\r\n y el a\u00F1o deingreso\r\n
+comment11.target=double adicionalXAntiguedad()
+comment12.target=double sueldoDelCargo()
+comment13.target=void mostrarCargo()
+comment2.params=p_nombreCargo
+comment2.target=void setNombreCargo(java.lang.String)
+comment3.params=p_sueldoBasico
+comment3.target=void setSueldoBasico(double)
+comment4.params=p_anioIngreso
+comment4.target=void setAnioIngreso(int)
+comment5.params=p_horasDeDocencia
+comment5.target=void setHorasDeDocencia(int)
+comment6.target=java.lang.String getNombreCargo()
+comment7.target=double getSueldoBasico()
+comment8.target=int getAnioIngreso()
+comment9.target=int getHorasDeDocencia()
+numComments=14

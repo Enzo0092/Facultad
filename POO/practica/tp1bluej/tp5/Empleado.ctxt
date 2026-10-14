@@ -1,5 +1,5 @@
 #BlueJ class context
-#Thu Oct 08 18:07:43 ART 2026
+#Tue Oct 13 14:56:57 ART 2026
 comment0.target=Empleado
 comment0.text=\r\n Representa un empleado.\r\n\r\n @author Enzo Romero\r\n @version 1.0 - 2026\r\n
 comment1.params=p_dni p_nombre p_apellido p_anio p_cuil p_sueldoBasico p_fechaIngreso

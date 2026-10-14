@@ -1,5 +1,5 @@
 #BlueJ class context
-#Thu Oct 08 21:21:49 ART 2026
+#Tue Oct 13 14:57:01 ART 2026
 comment0.target=Alumno
 comment0.text=\r\n La clase Alumno representa a un estudiante universitario.\r\n Permite gestionar sus datos personales, calificaciones, c\u00E1lculo de promedio\r\n y determinar su condici\u00F3n de aprobaci\u00F3n.\r\n hereda de la clase Persona(subclase) aplicando el principio de la subclsificacion\r\n \r\n @author Enzo Romero\r\n @version 1.0 (tp5 herencia )\r\n
 comment1.params=p_dni p_nombre p_apellido p_anio p_LU
