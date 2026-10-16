@@ -1,0 +1,27 @@
+#BlueJ class context
+#Fri Oct 16 13:16:25 ART 2026
+comment0.target=CuentaBancaria
+comment0.text=\r\n super clase cuenta bancaria creada para refactorizar el punnto 6\r\n @author Enzo Romero\r\n @author Morales Francisco\r\n @version 1.0\r\n
+comment1.params=p_nroCuenta p_titular p_saldo
+comment1.target=CuentaBancaria(int, Persona, double)
+comment1.text=constructor que recibeun saldo inicial\r\n @param nro cuenta\r\n @param titular\r\n @param saldo\r\n \r\n \r\n
+comment10.target=void mostrar()
+comment10.text=\r\n Muestra por pantalla los datos principales de la cuenta corriente.\r\n
+comment2.params=p_nroCuenta p_titular
+comment2.target=CuentaBancaria(int, Persona)
+comment2.text=\r\n constructor que inicializa el saldo en 0\r\n
+comment3.params=p_nroCuenta
+comment3.target=void setNroCuenta(int)
+comment4.params=p_saldo
+comment4.target=void setSaldo(double)
+comment5.params=p_titular
+comment5.target=void setTitular(Persona)
+comment6.target=int getNroCuenta()
+comment6.text=\r\n Obtiene el numero de la cuenta.\r\n\r\n @return n\u00FAmero de la cuenta corriente.\r\n
+comment7.target=double getSaldo()
+comment7.text=\r\n Obtiene el saldo de la cuenta.\r\n\r\n @return saldo de la cuenta.\r\n
+comment8.target=Persona getTitular()
+comment9.params=p_importe
+comment9.target=double depositar(double)
+comment9.text=\r\n Deposita un importe en la cuenta, sum\u00E1ndolo al saldo actual.\r\n\r\n @param p_importe importe que se desea depositar.\r\n
+numComments=11

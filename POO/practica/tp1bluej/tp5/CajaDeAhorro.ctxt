@@ -1,0 +1,27 @@
+#BlueJ class context
+#Fri Oct 16 13:16:37 ART 2026
+comment0.target=CajaDeAhorro
+comment0.text=\r\n Representa una caja de ahorro bancaria.\r\n\r\n @author Francisco Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CajaDeAhorro(int, Persona)
+comment1.text=\r\n Construye una caja de ahorro con el n\u00FAmero de cuenta y titular indicados, estableciendo el saldo en cero \r\n y 10 extracciones posibles.\r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta de ahorro.\r\n @param p_titular persona titular de la cuenta.\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CajaDeAhorro(int, Persona, double)
+comment2.text=\r\n Construye caja de ahorro con el n\u00FAmero de cuenta, titular y saldo indicados, \r\n e\r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta de ahorro.\r\n @param p_titular persona titular de la cuenta.\r\n @param p_saldo saldo inicial de la cuenta.\r\n
+comment3.params=p_extraccionesPosibles
+comment3.target=void setExtraccionesPosibles(int)
+comment3.text=\r\n Establece las extracciones posibles.\r\n\r\n @param p_extraccionesPosibles extracciones posibles.\r\n
+comment4.target=int getExtraccionesPosibles()
+comment4.text=\r\n Obtiene las extracciones posibles.\r\n\r\n @return extracciones posibles.\r\n
+comment5.params=p_importe
+comment5.target=boolean puedeExtraer(double)
+comment5.text=\r\n Comprueba si se puede extraer el importe indicado, verificando que no supere\r\n el saldo disponible y que a\u00FAn queden extracciones posibles.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return true si se puede realizar la extracci\u00F3n, false en caso contrario.\r\n
+comment6.params=p_importe
+comment6.target=void extraccion(double)
+comment6.text=\r\n Realiza la extracci\u00F3n del importe indicado y descuenta una extracci\u00F3n posible.\r\n\r\n @param p_importe importe que se desea extraer.\r\n
+comment7.params=p_importe
+comment7.target=void extraer(double)
+comment7.text=\r\n Coordina la operaci\u00F3n de extracci\u00F3n, verificando previamente si el importe puede ser extra\u00EDdo.\r\n\r\n @param p_importe importe que se desea extraer.\r\n
+comment8.target=void mostrar()
+comment8.text=\r\n Muestra por pantalla los datos principales de la cuenta de ahorro.\r\n
+numComments=9
