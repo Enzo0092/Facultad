@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sun Oct 18 15:57:07 ART 2026
+comment0.target=Zoologico
+comment0.text=\r\n Representa un zool\u00F3gico con su nombre y los visitantes registrados.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombre p_visitantes
+comment1.target=Zoologico(java.lang.String, java.util.ArrayList)
+comment1.text=\r\n Construye un zool\u00F3gico con su nombre y una lista de visitantes.\r\n\r\n @param p_nombre nombre del zool\u00F3gico\r\n @param p_visitantes lista de visitantes\r\n
+comment10.params=p_fechaDesde p_fechaHasta
+comment10.target=double recaudacion(java.util.Calendar, java.util.Calendar)
+comment10.text=\r\n Calcula la recaudaci\u00F3n entre dos fechas, inclusive.\r\n\r\n @param p_fechaDesde fecha inicial del per\u00EDodo\r\n @param p_fechaHasta fecha final del per\u00EDodo\r\n @return recaudaci\u00F3n total del per\u00EDodo\r\n
+comment11.target=java.util.HashSet listarPersonasQueVisitaronElZoo()
+comment11.text=\r\n Obtiene el conjunto de personas que visitaron el zool\u00F3gico.\r\n\r\n @return conjunto de personas que realizaron visitas\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=\r\n Establece el nombre del zool\u00F3gico.\r\n\r\n @param p_nombre nombre del zool\u00F3gico\r\n
+comment3.params=p_visitantes
+comment3.target=void setVisitantes(java.util.ArrayList)
+comment3.text=\r\n Establece la lista de visitantes.\r\n\r\n @param p_visitantes lista de visitantes\r\n
+comment4.target=java.lang.String getNombre()
+comment4.text=\r\n Obtiene el nombre del zool\u00F3gico.\r\n\r\n @return nombre del zool\u00F3gico\r\n
+comment5.target=java.util.ArrayList getVisitantes()
+comment5.text=\r\n Obtiene la lista de visitantes.\r\n\r\n @return lista de visitantes\r\n
+comment6.params=p_visitante
+comment6.target=void nuevoVisitante(Visitante)
+comment6.text=\r\n Agrega un nuevo visitante al zool\u00F3gico.\r\n\r\n @param p_visitante visitante que se desea agregar\r\n
+comment7.params=p_visitante
+comment7.target=boolean quitarVisitante(Visitante)
+comment7.text=\r\n Quita un visitante de la lista.\r\n\r\n @param p_visitante visitante que se desea quitar\r\n @return true si se elimina el visitante\r\n
+comment8.params=p_fecha p_tipoVisitante
+comment8.target=void listarTipoVisitantePorFecha(java.util.Calendar, java.lang.String)
+comment8.text=\r\n Muestra los visitantes de un tipo determinado que asistieron en una fecha.\r\n\r\n @param p_fecha fecha de la visita\r\n @param p_tipoVisitante tipo de visitante\r\n
+comment9.params=p_fecha
+comment9.target=void listarVisitantePorFecha(java.util.Calendar)
+comment9.text=\r\n Muestra los visitantes registrados en una fecha determinada.\r\n\r\n @param p_fecha fecha de la visita\r\n
+numComments=12

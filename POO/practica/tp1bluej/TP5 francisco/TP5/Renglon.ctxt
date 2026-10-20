@@ -1,0 +1,25 @@
+#BlueJ class context
+#Sun Oct 18 16:15:39 ART 2026
+comment0.target=Renglon
+comment0.text=\r\n Representa un rengl\u00F3n con una cantidad, un precio y una etiqueta.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_cantidad p_precio p_item
+comment1.target=Renglon(int, double, Etiqueta)
+comment1.text=\r\n Construye un rengl\u00F3n con la cantidad, el precio y la etiqueta indicados.\r\n\r\n @param p_cantidad cantidad de elementos\r\n @param p_precio precio de los elementos\r\n @param p_item etiqueta del elemento\r\n
+comment2.params=p_cantidad
+comment2.target=void setCantidad(int)
+comment2.text=\r\n Establece la cantidad de elementos.\r\n\r\n @param p_cantidad cantidad de elementos\r\n
+comment3.params=p_precio
+comment3.target=void setPrecio(double)
+comment3.text=\r\n Establece el precio de los elementos.\r\n\r\n @param p_precio precio de los elementos\r\n
+comment4.params=p_item
+comment4.target=void setItem(Etiqueta)
+comment4.text=\r\n Establece la etiqueta del elemento.\r\n\r\n @param p_item etiqueta del elemento\r\n
+comment5.target=int getCantidad()
+comment5.text=\r\n Devuelve la cantidad de elementos.\r\n\r\n @return cantidad de elementos\r\n
+comment6.target=double getPrecio()
+comment6.text=\r\n Devuelve el precio de los elementos.\r\n\r\n @return precio de los elementos\r\n
+comment7.target=Etiqueta getItem()
+comment7.text=\r\n Devuelve la etiqueta asociada al rengl\u00F3n.\r\n\r\n @return etiqueta del elemento\r\n
+comment8.target=void mostrar()
+comment8.text=\r\n Muestra la cantidad y la descripci\u00F3n del elemento.\r\n
+numComments=9

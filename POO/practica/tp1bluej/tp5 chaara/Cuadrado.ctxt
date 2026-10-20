@@ -1,0 +1,9 @@
+#BlueJ class context
+#Mon Oct 19 19:38:09 ART 2026
+comment0.target=Cuadrado
+comment0.text=\r\n clase cuadrado del ejercicio 3 del tp5\r\n subclase de la clase rectangulo \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_origen p_lado
+comment1.target=Cuadrado(Punto, double)
+comment2.target=java.lang.String nombreFigura()
+comment3.target=void caracteristicias()
+numComments=4

@@ -1,0 +1,24 @@
+#BlueJ class context
+#Sun Oct 18 15:48:11 ART 2026
+comment0.target=Facultad
+comment0.text=\r\n Representa una facultad con su nombre y una n\u00F3mina de profesores.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombre p_profesores
+comment1.target=Facultad(java.lang.String, java.util.ArrayList)
+comment1.text=\r\n Construye una facultad con un nombre y una lista de profesores.\r\n\r\n @param p_nombre nombre de la facultad\r\n @param p_profesores lista de profesores\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=\r\n Establece el nombre de la facultad.\r\n\r\n @param p_nombre nombre de la facultad\r\n
+comment3.params=p_profesores
+comment3.target=void setProfesores(java.util.ArrayList)
+comment3.text=\r\n Establece la lista de profesores de la facultad.\r\n\r\n @param p_profesores lista de profesores\r\n
+comment4.target=java.lang.String getNombre()
+comment4.text=\r\n Obtiene el nombre de la facultad.\r\n\r\n @return nombre de la facultad\r\n
+comment5.target=java.util.ArrayList getProfesores()
+comment5.text=\r\n Obtiene la lista de profesores de la facultad.\r\n\r\n @return lista de profesores\r\n
+comment6.target=void nominaProfesores()
+comment6.text=\r\n Muestra la n\u00F3mina de profesores y el total a pagar.\r\n
+comment7.target=double totalAPagar()
+comment7.text=\r\n Calcula el total a pagar a todos los profesores.\r\n\r\n @return suma de los sueldos totales de los profesores\r\n
+comment8.target=void listarProfesorCargos()
+comment8.text=\r\n Muestra los profesores y los cargos que desempe\u00F1an.\r\n
+numComments=9

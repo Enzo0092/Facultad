@@ -1,0 +1,36 @@
+#BlueJ class context
+#Sun Oct 18 15:46:38 ART 2026
+comment0.target=Cargo
+comment0.text=\r\n Representa un cargo con su sueldo b\u00E1sico, a\u00F1o de ingreso y horas de docencia.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombreCargo p_sueldoBasico p_anioIngreso p_horasDeDocencia
+comment1.target=Cargo(java.lang.String, double, int, int)
+comment1.text=\r\n Construye un cargo con sus datos correspondientes.\r\n\r\n @param p_nombreCargo nombre del cargo\r\n @param p_sueldoBasico sueldo b\u00E1sico del cargo\r\n @param p_anioIngreso a\u00F1o de ingreso\r\n @param p_horasDeDocencia cantidad de horas de docencia\r\n
+comment10.target=int antiguedad()
+comment10.text=\r\n Calcula los a\u00F1os de antig\u00FCedad en el cargo.\r\n\r\n @return a\u00F1os de antig\u00FCedad\r\n
+comment11.target=double adicionalXAntiguedad()
+comment11.text=\r\n Calcula el adicional correspondiente a la antig\u00FCedad.\r\n\r\n @return importe adicional por antig\u00FCedad\r\n
+comment12.target=double sueldoDelCargo()
+comment12.text=\r\n Calcula el sueldo total correspondiente al cargo.\r\n\r\n @return sueldo b\u00E1sico m\u00E1s el adicional por antig\u00FCedad\r\n
+comment13.target=void mostrarCargo()
+comment13.text=\r\n Muestra los datos y el sueldo del cargo.\r\n
+comment2.params=p_nombreCargo
+comment2.target=void setNombreCargo(java.lang.String)
+comment2.text=\r\n Establece el nombre del cargo.\r\n\r\n @param p_nombreCargo nombre del cargo\r\n
+comment3.params=p_sueldoBasico
+comment3.target=void setSueldoBasico(double)
+comment3.text=\r\n Establece el sueldo b\u00E1sico del cargo.\r\n\r\n @param p_sueldoBasico sueldo b\u00E1sico\r\n
+comment4.params=p_anioIngreso
+comment4.target=void setAnioIngreso(int)
+comment4.text=\r\n Establece el a\u00F1o de ingreso al cargo.\r\n\r\n @param p_anioIngreso a\u00F1o de ingreso\r\n
+comment5.params=p_horasDeDocencia
+comment5.target=void setHorasDeDocencia(int)
+comment5.text=\r\n Establece la cantidad de horas de docencia.\r\n\r\n @param p_horasDeDocencia cantidad de horas de docencia\r\n
+comment6.target=java.lang.String getNombreCargo()
+comment6.text=\r\n Obtiene el nombre del cargo.\r\n\r\n @return nombre del cargo\r\n
+comment7.target=double getSueldoBasico()
+comment7.text=\r\n Obtiene el sueldo b\u00E1sico del cargo.\r\n\r\n @return sueldo b\u00E1sico\r\n
+comment8.target=int getAnioIngreso()
+comment8.text=\r\n Obtiene el a\u00F1o de ingreso al cargo.\r\n\r\n @return a\u00F1o de ingreso\r\n
+comment9.target=int getHorasDeDocencia()
+comment9.text=\r\n Obtiene la cantidad de horas de docencia.\r\n\r\n @return cantidad de horas de docencia\r\n
+numComments=14

@@ -1,0 +1,31 @@
+#BlueJ class context
+#Mon Oct 19 20:10:44 ART 2026
+comment0.target=Jardin
+comment1.params=p_nombre
+comment1.target=Jardin(java.lang.String)
+comment1.text=\r\n constructor para jardin con lista vacia\r\n @param p_nombre del jardin.\r\n
+comment10.target=double cuantosMetros()
+comment10.text=\r\n calcula la suma total de metros cuadrados de todas las figuras del jardin\r\n \r\n @return total de metros cuadrados a cubrir\r\n
+comment11.target=double cuantosLitros()
+comment11.text=\r\n calcula los litros de puntura necesarios sabiendo que 4 listros cubren 20 m2\r\n \r\n @rerun listros totales requeridos\r\n
+comment12.target=int cuantasLatas()
+comment12.text=\ \r\n calcula la cantidad entera de latas a comprar (cada lata cubre 20 m2).\r\n redondea hacia arriva para  no quedarse sin pintura \r\n @return cantidad de latas a comprar.\r\n
+comment13.target=void detalleFiguras()
+comment13.text=\r\n emite el listado de figuras con sus superficies, el total al cubrir y las latas a comprar\r\n \r\n
+comment2.params=p_nombre p_figuras
+comment2.target=Jardin(java.lang.String, java.util.ArrayList)
+comment2.text=\r\n constructor para jardin con lista inicial de figuras\r\n @param p_nombre del jardin\r\n @param p_figuras lista de figuras geometricas\r\n
+comment3.params=p_nombre p_figura
+comment3.target=Jardin(java.lang.String, FiguraGeometrica)
+comment3.text=\r\n  constructor que  nace con una figura geometrica\r\n
+comment4.params=p_nombre
+comment4.target=void setNombre(java.lang.String)
+comment5.params=p_figuras
+comment5.target=void setFiguras(java.util.ArrayList)
+comment6.target=java.lang.String getNombre()
+comment7.target=java.util.ArrayList getFiguras()
+comment8.params=p_figura
+comment8.target=boolean agregarFigura(FiguraGeometrica)
+comment9.params=p_figura
+comment9.target=boolean quitarFigura(FiguraGeometrica)
+numComments=14

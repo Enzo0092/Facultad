@@ -1,0 +1,31 @@
+#BlueJ class context
+#Fri Oct 02 01:06:18 ART 2026
+comment0.target=Alumno
+comment0.text=\r\n Representa un alumno y sus datos academicos.\r\n\r\n @author Francisco Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_lu p_dni p_nombre p_apellido p_anio
+comment1.target=Alumno(int, int, java.lang.String, java.lang.String, int)
+comment1.text=\r\n Construye un alumno y sus datos mencionados.\r\n \r\n @param p_lu LU del alumno.\r\n @param p_dni DNI del alumno.\r\n @param p_nombre nombre del alumno.\r\n @param p_apellido apellido del alumno.\r\n @param p_anio a\u00F1o de nacimiento del alumno.\r\n
+comment10.target=double promedio()
+comment10.text=\r\n Calcula el promedio del alumno.\r\n\r\n @return promedio del alumno.\r\n
+comment11.target=void mostrar()
+comment11.text=\r\n Muestra los datos del alumno.\r\n
+comment2.params=p_lu
+comment2.target=void setLu(int)
+comment2.text=\r\n Establece la LU del alumno.\r\n\r\n @param p_lu LU del alumno.\r\n
+comment3.params=p_nota
+comment3.target=void setNota1(double)
+comment3.text=\r\n Establece la primera nota del alumno.\r\n\r\n @param p_nota Primera nota del alumno.\r\n
+comment4.params=p_nota
+comment4.target=void setNota2(double)
+comment4.text=\r\n Establece la segunda nota del alumno.\r\n\r\n @param p_nota Segunda nota del alumno.\r\n
+comment5.target=int getLu()
+comment5.text=\r\n Obtiene el numero de LU del alumno.\r\n\r\n @return numero de LU del alumno.\r\n
+comment6.target=double getNota1()
+comment6.text=\r\n Obtiene la primera nota del alumno.\r\n\r\n @return Primera nota del alumno.\r\n
+comment7.target=double getNota2()
+comment7.text=\r\n Obtiene la segunda nota del alumno.\r\n\r\n @return segunda nota del alumno.\r\n
+comment8.target=boolean aprueba()
+comment8.text=\r\n Verifica si el alumno aprob\u00F3 o no en base a sus dos calificaciones.\r\n\r\n @return true si el alumno aprob\u00F3 o false si no aprob\u00F3.\r\n
+comment9.target=java.lang.String leyendaAprueba()
+comment9.text=\r\n Retorna un mensaje sobre el estado del alumno.\r\n\r\n @return "APROBADO" si el alumno aprob\u00F3 o "DESAPROBADO" si el alumno no aprob\u00F3.\r\n
+numComments=12

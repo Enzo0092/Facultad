@@ -1,0 +1,16 @@
+#BlueJ class context
+#Mon Oct 19 19:25:14 ART 2026
+comment0.target=Triangulo
+comment0.text=\r\n representa una figura geometrica de tipo triangulo\r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_origen p_base p_altura
+comment1.target=Triangulo(Punto, double, double)
+comment1.text=constructor de triangulo \r\n \r\n @param p_origen punto que representa el extremo inferior izquierdo\r\n @param p_base longitud de la base\r\n @param p_altura altura del triangulo\r\n
+comment2.params=p_base
+comment2.target=void setBase(double)
+comment3.params=p_altura
+comment3.target=void setAltura(double)
+comment4.target=double getBase()
+comment5.target=double getAltura()
+comment6.target=java.lang.String nombreFigura()
+comment7.target=double superficie()
+numComments=8

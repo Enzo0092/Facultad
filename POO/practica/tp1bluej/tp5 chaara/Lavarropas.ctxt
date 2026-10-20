@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Oct 20 13:12:24 ART 2026
+comment0.target=Lavarropas
+comment1.params=p_marca p_precio p_stock p_programas p_kilos p_automatico
+comment1.target=Lavarropas(java.lang.String, float, int, int, float, boolean)
+comment1.text=\r\n constructor \r\n
+numComments=2

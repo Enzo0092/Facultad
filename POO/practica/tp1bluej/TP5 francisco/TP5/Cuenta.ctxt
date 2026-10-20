@@ -1,0 +1,29 @@
+#BlueJ class context
+#Thu Oct 08 15:06:12 ART 2026
+comment0.target=Cuenta
+comment0.text=\r\n Representa una cuenta bancaria.\r\n\r\n @author\r\n @version\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=Cuenta(int, Persona)
+comment1.text=\r\n Construye una cuenta con el n\u00FAmero de cuenta y titular indicados,\r\n estableciendo el saldo en cero.\r\n\r\n @param p_nroCuenta n\u00FAmero de la cuenta.\r\n @param p_titular persona titular de la cuenta.\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=Cuenta(int, Persona, double)
+comment2.text=\r\n Construye una cuenta con el n\u00FAmero de cuenta, titular y saldo indicados.\r\n\r\n @param p_nroCuenta n\u00FAmero de la cuenta.\r\n @param p_titular persona titular de la cuenta.\r\n @param p_saldo saldo inicial de la cuenta.\r\n
+comment3.params=p_nroCuenta
+comment3.target=void setNroCuenta(int)
+comment3.text=\r\n Establece el n\u00FAmero de cuenta.\r\n\r\n @param p_nroCuenta n\u00FAmero de la cuenta.\r\n
+comment4.params=p_saldo
+comment4.target=void setSaldo(double)
+comment4.text=\r\n Establece el saldo de la cuenta.\r\n\r\n @param p_saldo saldo de la cuenta.\r\n
+comment5.params=p_titular
+comment5.target=void setTitular(Persona)
+comment5.text=\r\n Establece el titular de la cuenta.\r\n\r\n @param p_titular persona titular de la cuenta.\r\n
+comment6.target=int getNroCuenta()
+comment6.text=\r\n Obtiene el n\u00FAmero de cuenta.\r\n\r\n @return n\u00FAmero de la cuenta.\r\n
+comment7.target=double getSaldo()
+comment7.text=\r\n Obtiene el saldo de la cuenta.\r\n\r\n @return saldo de la cuenta.\r\n
+comment8.target=Persona getTitular()
+comment8.text=\r\n Obtiene el titular de la cuenta.\r\n\r\n @return titular de la cuenta.\r\n
+comment9.params=p_importe
+comment9.target=double depositar(double)
+comment9.text=\r\n Deposita un importe en la cuenta.\r\n\r\n @param p_importe importe que se desea depositar.\r\n @return nuevo saldo de la cuenta.\r\n
+numComments=10

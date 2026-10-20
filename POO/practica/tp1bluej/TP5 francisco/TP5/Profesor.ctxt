@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sun Oct 18 15:48:09 ART 2026
+comment0.target=Profesor
+comment0.text=\r\n Representa a un profesor con su t\u00EDtulo y los cargos asignados.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_titulo p_cargos p_dni p_nombre p_apellido p_anio
+comment1.target=Profesor(java.lang.String, java.util.ArrayList, int, java.lang.String, java.lang.String, int)
+comment1.text=\r\n Construye un profesor con sus datos personales, t\u00EDtulo y cargos.\r\n\r\n @param p_titulo t\u00EDtulo del profesor\r\n @param p_cargos lista de cargos asignados\r\n @param p_dni DNI del profesor\r\n @param p_nombre nombre del profesor\r\n @param p_apellido apellido del profesor\r\n @param p_anio a\u00F1o de nacimiento del profesor\r\n
+comment2.params=p_titulo
+comment2.target=void setTitulo(java.lang.String)
+comment2.text=\r\n Establece el t\u00EDtulo del profesor.\r\n\r\n @param p_titulo t\u00EDtulo del profesor\r\n
+comment3.params=p_cargos
+comment3.target=void setCargos(java.util.ArrayList)
+comment3.text=\r\n Establece la lista de cargos del profesor.\r\n\r\n @param p_cargos lista de cargos asignados\r\n
+comment4.target=java.lang.String getTitulo()
+comment4.text=\r\n Obtiene el t\u00EDtulo del profesor.\r\n\r\n @return t\u00EDtulo del profesor\r\n
+comment5.target=java.util.ArrayList getCargos()
+comment5.text=\r\n Obtiene la lista de cargos del profesor.\r\n\r\n @return lista de cargos asignados\r\n
+comment6.target=void mostrar()
+comment6.text=\r\n Muestra los datos personales, el t\u00EDtulo, los cargos y el sueldo total del profesor.\r\n
+comment7.target=void listarCargos()
+comment7.text=\r\n Muestra los cargos asignados al profesor.\r\n
+comment8.target=double sueldoTotal()
+comment8.text=\r\n Calcula el sueldo total del profesor sumando los sueldos de sus cargos.\r\n\r\n @return sueldo total del profesor\r\n
+comment9.target=java.lang.String mostrarLinea()
+comment9.text=\r\n Devuelve una l\u00EDnea con el DNI, el nombre y el sueldo total del profesor.\r\n\r\n @return texto con los datos resumidos del profesor\r\n
+numComments=10

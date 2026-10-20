@@ -1,0 +1,20 @@
+#BlueJ class context
+#Sun Oct 18 15:53:09 ART 2026
+comment0.target=Caba\u00F1a
+comment0.text=\r\n Representa una caba\u00F1a con una cantidad determinada de habitaciones.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nroHabitaciones p_nombre p_precioBase p_diasAlquiler p_servicios
+comment1.target=Caba\u00F1a(int, java.lang.String, double, int, java.util.ArrayList)
+comment1.text=\r\n Construye una caba\u00F1a con sus datos y servicios.\r\n\r\n @param p_nroHabitaciones cantidad de habitaciones\r\n @param p_nombre nombre de la caba\u00F1a\r\n @param p_precioBase precio base de la caba\u00F1a\r\n @param p_diasAlquiler cantidad de d\u00EDas de alquiler\r\n @param p_servicios lista de servicios\r\n
+comment2.params=p_nroHabitaciones
+comment2.target=void setNroHabitaciones(int)
+comment2.text=\r\n Establece la cantidad de habitaciones.\r\n\r\n @param p_nroHabitaciones cantidad de habitaciones\r\n
+comment3.target=int getNroHabitaciones()
+comment3.text=\r\n Obtiene la cantidad de habitaciones.\r\n\r\n @return cantidad de habitaciones\r\n
+comment4.params=p_alojamiento
+comment4.target=int contar(java.lang.String)
+comment4.text=\r\n Indica si el alojamiento corresponde a una caba\u00F1a.\r\n\r\n @param p_alojamiento tipo de alojamiento a comparar\r\n @return 1 si es una caba\u00F1a, 0 en caso contrario\r\n
+comment5.target=double costo()
+comment5.text=\r\n Calcula el costo de la caba\u00F1a seg\u00FAn su precio base, habitaciones y d\u00EDas de alquiler.\r\n\r\n @return costo de la caba\u00F1a\r\n
+comment6.target=void liquidar()
+comment6.text=\r\n Muestra las caracter\u00EDsticas y el costo total de la caba\u00F1a.\r\n
+numComments=7

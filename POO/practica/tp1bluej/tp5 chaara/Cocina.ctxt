@@ -1,0 +1,22 @@
+#BlueJ class context
+#Tue Oct 20 00:31:35 ART 2026
+comment0.target=Cocina
+comment0.text=\r\n Representa un artefacto de tipo cocina.\r\n Modela sus caracter\u00EDsticas t\u00E9rmicas y estructurales, calculando sus cuotas de cr\u00E9dito.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_marca p_precio p_stock p_hornallas p_calorias p_dimensiones
+comment1.target=Cocina(java.lang.String, float, int, int, int, java.lang.String)
+comment1.text=\r\n Construye una cocina con los datos generales del artefacto y sus caracter\u00EDsticas espec\u00EDficas.\r\n \r\n @param p_marca marca comercial de la cocina.\r\n @param p_precio precio de lista de la cocina.\r\n @param p_stock unidades disponibles en inventario.\r\n @param p_hornallas cantidad de hornallas de la cocina.\r\n @param p_calorias potencia calor\u00EDfica total expresada en calor\u00EDas.\r\n @param p_dimensiones dimensiones f\u00EDsicas en formato ancho*alto*profundidad (ej. 80*60*60cm).\r\n
+comment2.params=p_hornallas
+comment2.target=void setHornallas(int)
+comment3.params=p_calorias
+comment3.target=void setCalorias(int)
+comment4.params=p_dimensiones
+comment4.target=void setDimensiones(java.lang.String)
+comment5.target=int getHornallas()
+comment6.target=int getCalorias()
+comment7.target=java.lang.String getDimensiones()
+comment8.target=void imprimir()
+comment8.text=\r\n Muestra la informaci\u00F3n detallada de la cocina, incluyendo datos comunes y espec\u00EDficos.\r\n
+comment9.params=p_cuotas p_interes
+comment9.target=float creditoConAdicional(int, float)
+comment9.text=\r\n Calcula la cuota final del cr\u00E9dito.\r\n Al no poseer recargos ni bonificaciones particulares, equivale a la cuota base.\r\n \r\n @param p_cuotas cantidad de cuotas a financiar.\r\n @param p_interes tasa porcentual de inter\u00E9s aplicada.\r\n @return valor monetario final de cada cuota.\r\n
+numComments=10

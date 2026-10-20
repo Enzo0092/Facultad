@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Oct 18 16:15:39 ART 2026
+comment0.target=Pedido
+comment0.text=\r\n Representa un pedido compuesto por varios renglones.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_renglones
+comment1.target=Pedido(java.util.ArrayList)
+comment1.text=\r\n Construye un pedido con la lista de renglones indicada.\r\n\r\n @param p_renglones lista de renglones del pedido\r\n
+comment2.params=p_renglones
+comment2.target=void setRenglones(java.util.ArrayList)
+comment2.text=\r\n Establece la lista de renglones del pedido.\r\n\r\n @param p_renglones lista de renglones del pedido\r\n
+comment3.target=java.util.ArrayList getRenglones()
+comment3.text=\r\n Devuelve la lista de renglones del pedido.\r\n\r\n @return lista de renglones\r\n
+comment4.target=void mostrar()
+comment4.text=\r\n Muestra el pedido, la cantidad de renglones y sus elementos.\r\n
+numComments=5

@@ -1,0 +1,24 @@
+#BlueJ class context
+#Sun Oct 18 16:01:15 ART 2026
+comment0.target=Individuo
+comment0.text=\r\n Representa a un visitante individual de un zool\u00F3gico.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_persona p_nombre p_fechaVisita
+comment1.target=Individuo(Persona, java.lang.String, java.util.Calendar)
+comment1.text=\r\n Construye un visitante individual.\r\n\r\n @param p_persona persona asociada al visitante\r\n @param p_nombre nombre del visitante\r\n @param p_fechaVisita fecha de la visita\r\n
+comment2.params=p_persona
+comment2.target=void setPersona(Persona)
+comment2.text=\r\n Establece la persona asociada al visitante.\r\n\r\n @param p_persona persona que se asociar\u00E1 al visitante\r\n
+comment3.target=Persona getPersona()
+comment3.text=\r\n Devuelve la persona asociada al visitante.\r\n\r\n @return persona asociada al visitante\r\n
+comment4.target=java.lang.String tipoVisitante()
+comment4.text=\r\n Indica el tipo de visitante.\r\n\r\n @return tipo de visitante\r\n
+comment5.params=p_fecha p_visitante
+comment5.target=void listarPorFecha(java.util.Calendar, java.lang.String)
+comment5.text=\r\n Muestra al visitante si coincide con la fecha y el tipo indicados.\r\n\r\n @param p_fecha fecha que se desea consultar\r\n @param p_visitante tipo de visitante que se desea consultar\r\n
+comment6.target=void mostrar()
+comment6.text=\r\n Muestra los datos del visitante, incluyendo su DNI y edad.\r\n
+comment7.target=double entrada()
+comment7.text=\r\n Devuelve el precio de la entrada individual.\r\n\r\n @return precio de la entrada\r\n
+comment8.target=java.util.HashSet listarPersonas()
+comment8.text=\r\n Devuelve un conjunto con la persona asociada al visitante.\r\n\r\n @return conjunto de personas\r\n
+numComments=9

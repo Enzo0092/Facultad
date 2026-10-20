@@ -1,0 +1,32 @@
+#BlueJ class context
+#Sun Oct 18 16:01:20 ART 2026
+comment0.target=Delegacion
+comment0.text=\r\n Representa una delegaci\u00F3n de visitantes del zool\u00F3gico.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_integrantes p_nombre p_fechaVisita
+comment1.target=Delegacion(java.util.ArrayList, java.lang.String, java.util.Calendar)
+comment1.text=\r\n Construye una delegaci\u00F3n con sus integrantes, nombre y fecha de visita.\r\n\r\n @param p_integrantes lista de integrantes de la delegaci\u00F3n\r\n @param p_nombre nombre de la delegaci\u00F3n\r\n @param p_fechaVisita fecha de la visita\r\n
+comment10.params=p_fecha p_visitante
+comment10.target=void listarPorFecha(java.util.Calendar, java.lang.String)
+comment10.text=\r\n Muestra la delegaci\u00F3n si coincide la fecha y el tipo de visitante indicados.\r\n\r\n @param p_fecha fecha de la visita\r\n @param p_visitante tipo de visitante\r\n
+comment11.target=java.util.HashSet listarPersonas()
+comment11.text=\r\n Obtiene las personas asociadas a los integrantes de la delegaci\u00F3n.\r\n\r\n @return conjunto de personas de los integrantes\r\n
+comment2.params=p_integrantes
+comment2.target=void setIntegrantes(java.util.ArrayList)
+comment2.text=\r\n Establece la lista de integrantes de la delegaci\u00F3n.\r\n\r\n @param p_integrantes lista de integrantes\r\n
+comment3.target=java.util.ArrayList getIntegrantes()
+comment3.text=\r\n Obtiene la lista de integrantes de la delegaci\u00F3n.\r\n\r\n @return lista de integrantes\r\n
+comment4.target=java.lang.String tipoVisitante()
+comment4.text=\r\n Obtiene el tipo de visitante.\r\n\r\n @return tipo de visitante\r\n
+comment5.params=p_individuo
+comment5.target=void inscribirIndividuo(Individuo)
+comment5.text=\r\n Inscribe un individuo en la delegaci\u00F3n.\r\n\r\n @param p_individuo individuo que se desea inscribir\r\n
+comment6.params=p_individuo
+comment6.target=boolean quitarIntegrante(Individuo)
+comment6.text=\r\n Quita un integrante de la delegaci\u00F3n.\r\n\r\n @param p_individuo individuo que se desea quitar\r\n @return true si se elimina el integrante\r\n
+comment7.target=int cantidadIntegrantes()
+comment7.text=\r\n Cuenta la cantidad de integrantes de la delegaci\u00F3n.\r\n\r\n @return cantidad de integrantes\r\n
+comment8.target=void mostrar()
+comment8.text=\r\n Muestra los datos de la delegaci\u00F3n y sus integrantes.\r\n
+comment9.target=double entrada()
+comment9.text=\r\n Calcula el precio total de las entradas de la delegaci\u00F3n con el descuento correspondiente.\r\n\r\n @return precio total de las entradas\r\n
+numComments=12

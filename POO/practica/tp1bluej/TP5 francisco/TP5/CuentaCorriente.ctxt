@@ -1,0 +1,27 @@
+#BlueJ class context
+#Thu Oct 08 15:06:41 ART 2026
+comment0.target=CuentaCorriente
+comment0.text=\r\n Representa una cuenta corriente.\r\n \r\n @author\r\n @version\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CuentaCorriente(int, Persona)
+comment1.text=\r\n Construye una cuenta corriente con el n\u00FAmero de cuenta y titular indicados,\r\n estableciendo el saldo en cero y el l\u00EDmite de descubierto en 500.\r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta corriente.\r\n @param p_titular persona titular de la cuenta.\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CuentaCorriente(int, Persona, double)
+comment2.text=\r\n Construye una cuenta corriente con el n\u00FAmero de cuenta, titular y saldo indicados,\r\n estableciendo el l\u00EDmite de descubierto en 500.\r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta corriente.\r\n @param p_titular persona titular de la cuenta.\r\n @param p_saldo saldo inicial de la cuenta.\r\n
+comment3.params=p_limiteDescubierto
+comment3.target=void setLimiteDescubierto(double)
+comment3.text=\r\n Establece el l\u00EDmite de descubierto de la cuenta.\r\n \r\n @param p_limiteDescubierto l\u00EDmite de descubierto autorizado.\r\n
+comment4.target=double getLimiteDescubierto()
+comment4.text=\r\n Obtiene el l\u00EDmite de descubierto autorizado.\r\n \r\n @return l\u00EDmite de descubierto autorizado.\r\n
+comment5.params=p_importe
+comment5.target=boolean puedeExtraer(double)
+comment5.text=\r\n Comprueba si es posible extraer el importe indicado sin superar\r\n el l\u00EDmite de descubierto autorizado.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return true si se puede realizar la extracci\u00F3n, false en caso contrario.\r\n
+comment6.params=p_importe
+comment6.target=java.lang.String xQNoPuedeExtraer(double)
+comment6.text=\r\n Indica el motivo por el cual no se puede realizar una extracci\u00F3n.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return mensaje indicando por qu\u00E9 no puede realizarse la extracci\u00F3n.\r\n
+comment7.params=p_importe
+comment7.target=boolean extraer(double)
+comment7.text=\r\n Realiza una extracci\u00F3n si el importe puede ser extra\u00EDdo.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return true si la extracci\u00F3n se realiza, false en caso contrario.\r\n
+comment8.target=void mostrar()
+comment8.text=\r\n Muestra por pantalla los datos principales de la cuenta corriente.\r\n
+numComments=9

@@ -1,0 +1,29 @@
+#BlueJ class context
+#Sun Oct 18 15:56:57 ART 2026
+comment0.target=Visitante
+comment0.text=\r\n Representa un visitante del zool\u00F3gico.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombre p_fechaVisita
+comment1.target=Visitante(java.lang.String, java.util.Calendar)
+comment1.text=\r\n Construye un visitante con su nombre y fecha de visita.\r\n\r\n @param p_nombre nombre del visitante\r\n @param p_fechaVisita fecha de la visita\r\n
+comment10.target=java.util.HashSet listarPersonas()
+comment10.text=\r\n Obtiene las personas asociadas al visitante.\r\n\r\n @return conjunto de personas\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=\r\n Establece el nombre del visitante.\r\n\r\n @param p_nombre nombre del visitante\r\n
+comment3.params=p_fechaVisita
+comment3.target=void setFechaVisita(java.util.Calendar)
+comment3.text=\r\n Establece la fecha de visita.\r\n\r\n @param p_fechaVisita fecha de la visita\r\n
+comment4.target=java.lang.String getNombre()
+comment4.text=\r\n Obtiene el nombre del visitante.\r\n\r\n @return nombre del visitante\r\n
+comment5.target=java.util.Calendar getFechaVisita()
+comment5.text=\r\n Obtiene la fecha de visita.\r\n\r\n @return fecha de la visita\r\n
+comment6.target=void mostrar()
+comment6.text=\r\n Muestra la informaci\u00F3n del visitante.\r\n
+comment7.target=double entrada()
+comment7.text=\r\n Calcula el precio de la entrada del visitante.\r\n\r\n @return precio de la entrada\r\n
+comment8.params=p_fecha p_visitante
+comment8.target=void listarPorFecha(java.util.Calendar, java.lang.String)
+comment8.text=\r\n Lista visitantes seg\u00FAn la fecha y el tipo indicado.\r\n\r\n @param p_fecha fecha de la visita\r\n @param p_visitante tipo de visitante\r\n
+comment9.target=java.lang.String tipoVisitante()
+comment9.text=\r\n Obtiene el tipo de visitante.\r\n\r\n @return tipo de visitante\r\n
+numComments=11

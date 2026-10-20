@@ -1,0 +1,30 @@
+#BlueJ class context
+#Thu Oct 08 15:06:25 ART 2026
+comment0.target=CajaDeAhorro
+comment0.text=\r\n Representa una caja de ahorro.\r\n \r\n @author\r\n @version\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CajaDeAhorro(int, Persona)
+comment1.text=\r\n Construye una caja de ahorro con el n\u00FAmero de cuenta y titular indicados,\r\n estableciendo el saldo en cero y 10 extracciones posibles.\r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta.\r\n @param p_titular persona titular de la cuenta.\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CajaDeAhorro(int, Persona, double)
+comment2.text=\r\n Construye una caja de ahorro con el n\u00FAmero de cuenta, titular y saldo indicados,\r\n estableciendo 10 extracciones posibles.\r\n \r\n @param p_nroCuenta n\u00FAmero de la cuenta.\r\n @param p_titular persona titular de la cuenta.\r\n @param p_saldo saldo inicial de la cuenta.\r\n
+comment3.params=p_extracciones
+comment3.target=void setExtraccionesPosibles(int)
+comment3.text=\r\n Establece la cantidad de extracciones posibles.\r\n \r\n @param p_extracciones cantidad de extracciones posibles.\r\n
+comment4.target=int getExtraccionesPosibles()
+comment4.text=\r\n Obtiene la cantidad de extracciones posibles.\r\n \r\n @return cantidad de extracciones posibles.\r\n
+comment5.params=p_importe
+comment5.target=boolean puedeExtraer(double)
+comment5.text=\r\n Comprueba si es posible extraer el importe indicado.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return true si se puede realizar la extracci\u00F3n, false en caso contrario.\r\n
+comment6.params=p_importe
+comment6.target=void extraccion(double)
+comment6.text=\r\n Realiza la extracci\u00F3n del importe indicado.\r\n \r\n @param p_importe importe que se desea extraer.\r\n
+comment7.params=p_importe
+comment7.target=java.lang.String xQNoPuedeExtraer(double)
+comment7.text=\r\n Indica el motivo por el cual no se puede realizar una extracci\u00F3n.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return mensaje indicando por qu\u00E9 no puede realizarse la extracci\u00F3n.\r\n
+comment8.params=p_importe
+comment8.target=boolean extraer(double)
+comment8.text=\r\n Realiza una extracci\u00F3n si el importe puede ser extra\u00EDdo.\r\n \r\n @param p_importe importe que se desea extraer.\r\n @return true si la extracci\u00F3n se realiza, false en caso contrario.\r\n
+comment9.target=void mostrar()
+comment9.text=\r\n Muestra por pantalla los datos principales de la caja de ahorro.\r\n
+numComments=10

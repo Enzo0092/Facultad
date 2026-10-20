@@ -1,7 +1,0 @@
-#BlueJ class context
-#Thu Oct 08 20:25:20 ART 2026
-comment0.target=PruebaFiguras
-comment0.text=\r\n Clase ejecutable para probar el funcionamiento de Rectangulo y Cuadrado.\r\n \r\n @author Enzo Romero\r\n @version 1.0 (TP5 - Ejercicio 3)\r\n
-comment1.params=args
-comment1.target=void main(java.lang.String[])
-numComments=2

@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Oct 18 15:41:50 ART 2026
+comment0.target=Cuadrado
+comment0.text=\r\n Clase que genera un cuadrado.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_origen p_lado p_ancho p_alto
+comment1.target=Cuadrado(Punto, double, double, double)
+comment1.text=\r\n Construye un cuadrado con un origen, un lado, un ancho y un alto.\r\n\r\n @param p_origen punto de origen de la figura\r\n @param p_lado longitud del lado del cuadrado\r\n @param p_ancho ancho del rect\u00E1ngulo\r\n @param p_alto alto del rect\u00E1ngulo\r\n
+comment2.params=p_lado
+comment2.target=void setLado(double)
+comment2.text=\r\n Establece el lado del cuadrado.\r\n\r\n @param p_lado longitud del lado del cuadrado\r\n
+comment3.target=double getLado()
+comment3.text=\r\n Obtiene el lado del cuadrado.\r\n\r\n @return longitud del lado del cuadrado\r\n
+comment4.target=java.lang.String nombreFigura()
+comment4.text=\r\n Devuelve el nombre de la figura.\r\n\r\n @return nombre de la figura\r\n
+comment5.target=void caracteristicas()
+comment5.text=\r\n Muestra las caracter\u00EDsticas del cuadrado.\r\n
+numComments=6

@@ -1,0 +1,15 @@
+#BlueJ class context
+#Mon Oct 19 19:15:26 ART 2026
+comment0.target=FiguraGeometrica
+comment0.text=\r\n clase que representa a toda figura geometrica\r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_origen
+comment1.target=FiguraGeometrica(Punto)
+comment1.text=\r\n constructor de la figura geometrica con su punto de origen\r\n @param p_origen punto de origen de la figura.\r\n
+comment2.params=p_origen
+comment2.target=void setOrigen(Punto)
+comment3.target=Punto getOrigen()
+comment4.target=java.lang.String nombreFigura()
+comment5.target=double superficie()
+comment6.target=void mostrarSuperficie()
+comment6.text=\r\n muestra el nombre de la figura y su superficie calculada plimorfiamente.\r\n
+numComments=7

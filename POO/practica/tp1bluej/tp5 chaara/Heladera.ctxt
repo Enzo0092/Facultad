@@ -1,0 +1,22 @@
+#BlueJ class context
+#Tue Oct 20 00:31:11 ART 2026
+comment0.target=Heladera
+comment0.text=\r\n Representa un artefacto de tipo heladera.\r\n Modela su capacidad, cantidad de puertas y si cuenta con compresor para calcular su cuota con seguro adicional.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_marca p_precio p_stock p_pies p_puertas p_compresor
+comment1.target=Heladera(java.lang.String, float, int, int, int, boolean)
+comment1.text=\r\n Construye una heladera con los datos generales y sus caracter\u00EDsticas t\u00E9cnicas.\r\n \r\n @param p_marca marca comercial de la heladera.\r\n @param p_precio precio de venta del producto.\r\n @param p_stock cantidad disponible en inventario.\r\n @param p_pies capacidad volum\u00E9trica expresada en pies c\u00FAbicos.\r\n @param p_puertas n\u00FAmero de puertas de la heladera.\r\n @param p_compresor indica si posee compresor (true) o no (false).\r\n
+comment2.params=p_pies
+comment2.target=void setPies(int)
+comment3.params=p_puertas
+comment3.target=void setPuertas(int)
+comment4.params=p_compresor
+comment4.target=void setCompresor(boolean)
+comment5.target=int getPies()
+comment6.target=int getPuertas()
+comment7.target=boolean getCompresor()
+comment8.target=void imprimir()
+comment8.text=\r\n Muestra las especificaciones de la heladera, incluyendo datos generales y particulares.\r\n
+comment9.params=p_cuotas p_interes
+comment9.target=float creditoConAdicional(int, float)
+comment9.text=\r\n Calcula el valor de la cuota sumando $50 de seguro si la heladera posee compresor.\r\n \r\n @param p_cuotas cantidad de cuotas a financiar.\r\n @param p_interes tasa porcentual de inter\u00E9s aplicada.\r\n @return cuota final con el adicional por compresor si corresponde.\r\n
+numComments=10

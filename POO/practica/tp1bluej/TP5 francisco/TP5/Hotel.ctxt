@@ -1,0 +1,20 @@
+#BlueJ class context
+#Sun Oct 18 15:53:42 ART 2026
+comment0.target=Hotel
+comment0.text=\r\n Representa un hotel con un tipo de habitaci\u00F3n determinado.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_tipoHabitacion p_nombre p_precioBase p_diasAlquiler p_servicios
+comment1.target=Hotel(java.lang.String, java.lang.String, double, int, java.util.ArrayList)
+comment1.text=\r\n Construye un hotel con sus datos y servicios.\r\n\r\n @param p_tipoHabitacion tipo de habitaci\u00F3n\r\n @param p_nombre nombre del hotel\r\n @param p_precioBase precio base del hotel\r\n @param p_diasAlquiler cantidad de d\u00EDas de alquiler\r\n @param p_servicios lista de servicios\r\n
+comment2.params=p_tipoHabitacion
+comment2.target=void setTipoHabitacion(java.lang.String)
+comment2.text=\r\n Establece el tipo de habitaci\u00F3n.\r\n\r\n @param p_tipoHabitacion tipo de habitaci\u00F3n\r\n
+comment3.target=java.lang.String getTipoHabitacion()
+comment3.text=\r\n Obtiene el tipo de habitaci\u00F3n.\r\n\r\n @return tipo de habitaci\u00F3n\r\n
+comment4.params=p_alojamiento
+comment4.target=int contar(java.lang.String)
+comment4.text=\r\n Indica si el alojamiento corresponde a un hotel.\r\n\r\n @param p_alojamiento tipo de alojamiento a comparar\r\n @return 1 si es un hotel, 0 en caso contrario\r\n
+comment5.target=double costo()
+comment5.text=\r\n Calcula el costo del hotel seg\u00FAn el precio base, el tipo de habitaci\u00F3n y los d\u00EDas de alquiler.\r\n\r\n @return costo del hotel\r\n
+comment6.target=void liquidar()
+comment6.text=\r\n Muestra el tipo de habitaci\u00F3n y el costo total del hotel.\r\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sun Oct 18 16:16:18 ART 2026
+comment0.target=Premium
+comment0.text=\r\n Representa una etiqueta premium con un costo y una cantidad de colores.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_colores p_costo
+comment1.target=Premium(int, double)
+comment1.text=\r\n Construye una etiqueta premium con la cantidad de colores y el costo indicados.\r\n\r\n @param p_colores cantidad de colores\r\n @param p_costo costo de la etiqueta\r\n
+comment2.params=p_colores
+comment2.target=void setColores(int)
+comment2.text=\r\n Establece la cantidad de colores.\r\n\r\n @param p_colores cantidad de colores\r\n
+comment3.target=int getColores()
+comment3.text=\r\n Devuelve la cantidad de colores.\r\n\r\n @return cantidad de colores\r\n
+comment4.params=q
+comment4.target=double precio(int)
+comment4.text=\r\n Calcula el precio seg\u00FAn la cantidad solicitada y el adicional por colores.\r\n\r\n @param q cantidad de etiquetas\r\n @return precio total\r\n
+comment5.target=double plus()
+comment5.text=\r\n Calcula el porcentaje adicional seg\u00FAn la cantidad de colores.\r\n\r\n @return porcentaje adicional aplicado al precio\r\n
+comment6.target=java.lang.String tipo()
+comment6.text=\r\n Devuelve el tipo de etiqueta.\r\n\r\n @return tipo de etiqueta\r\n
+comment7.target=java.lang.String toString()
+comment7.text=\r\n Devuelve una descripci\u00F3n de la etiqueta premium, incluyendo sus colores.\r\n\r\n @return descripci\u00F3n de la etiqueta\r\n
+numComments=8

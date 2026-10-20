@@ -1,0 +1,7 @@
+#BlueJ class context
+#Mon Oct 19 20:23:09 ART 2026
+comment0.target=administracion
+comment0.text=\r\n clase ejecutable para probar el calculo de presupuesto de pintura del jardin \r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n \r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

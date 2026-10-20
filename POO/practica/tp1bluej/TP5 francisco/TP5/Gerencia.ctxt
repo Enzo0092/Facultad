@@ -1,0 +1,31 @@
+#BlueJ class context
+#Sun Oct 18 15:52:31 ART 2026
+comment0.target=Gerencia
+comment0.text=\r\n Representa una gerencia que administra los alojamientos alquilados.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_nombre p_alojamientosAlquilados
+comment1.target=Gerencia(java.lang.String, java.util.ArrayList)
+comment1.text=\r\n Construye una gerencia con su nombre y sus alojamientos alquilados.\r\n\r\n @param p_nombre nombre de la gerencia\r\n @param p_alojamientosAlquilados lista de alojamientos alquilados\r\n
+comment10.target=void mostrarLiquidacion()
+comment10.text=\r\n Muestra la liquidaci\u00F3n y la cantidad de alojamientos de cada tipo.\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=\r\n Establece el nombre de la gerencia.\r\n\r\n @param p_nombre nombre de la gerencia\r\n
+comment3.params=p_alojamientosAlquilados
+comment3.target=void setAlojamientosAlquilados(java.util.ArrayList)
+comment3.text=\r\n Establece la lista de alojamientos alquilados.\r\n\r\n @param p_alojamientosAlquilados lista de alojamientos alquilados\r\n
+comment4.target=java.lang.String getNombre()
+comment4.text=\r\n Obtiene el nombre de la gerencia.\r\n\r\n @return nombre de la gerencia\r\n
+comment5.target=java.util.ArrayList getAlojamientosAlquilados()
+comment5.text=\r\n Obtiene la lista de alojamientos alquilados.\r\n\r\n @return lista de alojamientos alquilados\r\n
+comment6.params=p_alojamiento
+comment6.target=boolean agregarAlojamiento(Alojamiento)
+comment6.text=\r\n Agrega un alojamiento a la lista de alojamientos alquilados.\r\n\r\n @param p_alojamiento alojamiento que se desea agregar\r\n @return true si el alojamiento se agrega correctamente\r\n
+comment7.params=p_alojamiento
+comment7.target=boolean quitarAlojamiento(Alojamiento)
+comment7.text=\r\n Quita un alojamiento de la lista de alojamientos alquilados.\r\n\r\n @param p_alojamiento alojamiento que se desea quitar\r\n @return true si se elimina el alojamiento\r\n
+comment8.params=tipoAlojamiento
+comment8.target=int contarAlojamiento(java.lang.String)
+comment8.text=\r\n Cuenta los alojamientos del tipo indicado.\r\n\r\n @param tipoAlojamiento tipo de alojamiento que se desea contar\r\n @return cantidad de alojamientos del tipo indicado\r\n
+comment9.target=void liquidar()
+comment9.text=\r\n Muestra la liquidaci\u00F3n de los alojamientos alquilados.\r\n
+numComments=11

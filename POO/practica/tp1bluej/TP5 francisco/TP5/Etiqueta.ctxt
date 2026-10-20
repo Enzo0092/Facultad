@@ -1,0 +1,20 @@
+#BlueJ class context
+#Sun Oct 18 16:05:03 ART 2026
+comment0.target=Etiqueta
+comment0.text=\r\n Representa una etiqueta abstracta con un costo asociado.\r\n\r\n @author Francisco, Morales\r\n @version 1.0 - 2026\r\n
+comment1.params=p_costo
+comment1.target=Etiqueta(double)
+comment1.text=\r\n Construye una etiqueta con el costo indicado.\r\n\r\n @param p_costo costo de la etiqueta\r\n
+comment2.params=p_costo
+comment2.target=void setCosto(double)
+comment2.text=\r\n Establece el costo de la etiqueta.\r\n\r\n @param p_costo costo de la etiqueta\r\n
+comment3.target=double getCosto()
+comment3.text=\r\n Devuelve el costo de la etiqueta.\r\n\r\n @return costo de la etiqueta\r\n
+comment4.params=q
+comment4.target=double precio(int)
+comment4.text=\r\n Calcula el precio seg\u00FAn la cantidad indicada.\r\n\r\n @param q cantidad de elementos\r\n @return precio correspondiente a la cantidad\r\n
+comment5.target=java.lang.String toString()
+comment5.text=\r\n Devuelve una descripci\u00F3n de la etiqueta y su costo.\r\n\r\n @return descripci\u00F3n de la etiqueta\r\n
+comment6.target=java.lang.String tipo()
+comment6.text=\r\n Devuelve el tipo de etiqueta.\r\n\r\n @return tipo de etiqueta\r\n
+numComments=7
