@@ -1,0 +1,33 @@
+#BlueJ class context
+#Thu Oct 22 14:40:41 ART 2026
+comment0.target=Zoologico
+comment0.text=\r\n Clase contenedora que gestiona la venta y registro de entradas al zool\u00F3gico.\r\n Permite administrar visitantes (individuos y delegaciones), generar listados\r\n filtrados por fecha o tipo, calcular la recaudaci\u00F3n en rangos temporales\r\n y consolidar las personas concurrentes sin duplicados.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre
+comment1.target=Zoologico(java.lang.String)
+comment1.text=\r\n Construye un zool\u00F3gico inicializando su colecci\u00F3n de visitantes vac\u00EDa.\r\n \r\n @param p_nombre denominaci\u00F3n del zool\u00F3gico.\r\n
+comment10.params=p_fechaDesde p_fechaHasta
+comment10.target=double recaudacion(java.util.Calendar, java.util.Calendar)
+comment10.text=\r\n Calcula la recaudaci\u00F3n acumulada por entradas vendidas dentro de un intervalo de fechas (inclusivo).\r\n \r\n @param p_fechaDesde fecha inicial del per\u00EDodo.\r\n @param p_fechaHasta fecha final del per\u00EDodo.\r\n @return suma monetaria total recaudada en el rango indicado.\r\n
+comment11.target=java.util.HashSet listarPersonasQueVisitaronElZoo()
+comment11.text=\r\n Consolida y retorna el conjunto de todas las personas f\u00EDsicas que visitaron el zool\u00F3gico,\r\n eliminando repeticiones mediante una estructura de conjunto.\r\n \r\n @return colecci\u00F3n HashSet con las instancias \u00FAnicas de Persona registradas.\r\n
+comment2.params=p_nombre p_visitantes
+comment2.target=Zoologico(java.lang.String, java.util.ArrayList)
+comment2.text=\r\n Construye un zool\u00F3gico con una lista previa de visitantes.\r\n \r\n @param p_nombre denominaci\u00F3n del zool\u00F3gico.\r\n @param p_visitantes colecci\u00F3n inicial de visitantes.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_visitantes
+comment4.target=void setVisitantes(java.util.ArrayList)
+comment5.target=java.lang.String getNombre()
+comment6.params=p_visitante
+comment6.target=void nuevoVisitante(Visitante)
+comment6.text=\r\n Registra un nuevo visitante en el zool\u00F3gico asegurando que no se duplique.\r\n \r\n @param p_visitante visitante (Individuo o Delegaci\u00F3n) a incorporar.\r\n
+comment7.params=p_visitante
+comment7.target=boolean quitarVisitante(Visitante)
+comment7.text=\r\n Remueve a un visitante de la colecci\u00F3n del zool\u00F3gico.\r\n \r\n @param p_visitante visitante a dar de baja.\r\n @return true si el visitante fue removido; false en caso contrario.\r\n
+comment8.params=p_fecha p_tipoVisitante
+comment8.target=void listarTipoVisitantePorFecha(java.util.Calendar, java.lang.String)
+comment8.text=\r\n Emite por consola el detalle de los visitantes que concurrieron en una fecha espec\u00EDfica\r\n y pertenecen a un tipo determinado ("Individuo" o "Delegaci\u00F3n").\r\n \r\n @param p_fecha fecha de visita a filtrar.\r\n @param p_tipoVisitante categor\u00EDa de visitante solicitada.\r\n
+comment9.params=p_fecha
+comment9.target=void listarVisitantePorFecha(java.util.Calendar)
+comment9.text=\r\n Emite por consola el detalle de todos los visitantes que concurrieron en una fecha espec\u00EDfica,\r\n sin discriminar por tipo.\r\n \r\n @param p_fecha fecha de visita a consultar.\r\n
+numComments=12

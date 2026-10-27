@@ -1,0 +1,21 @@
+#BlueJ class context
+#Wed Oct 21 20:35:36 ART 2026
+comment0.target=Caba\u00F1a
+comment0.text=\r\n Representa un tipo de alojamiento caba\u00F1a.\r\n Modela el c\u00E1lculo de costos con recargo diario por cantidad de habitaciones\r\n y emite la liquidaci\u00F3n correspondiente.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre p_precioBase p_diasAlquiler p_nroHabitaciones
+comment1.target=Caba\u00F1a(java.lang.String, double, int, int)
+comment1.text=\r\n Construye una caba\u00F1a sin servicios iniciales contratados.\r\n \r\n @param p_nombre nombre comercial de la caba\u00F1a.\r\n @param p_precioBase precio base diario de estad\u00EDa.\r\n @param p_diasAlquiler cantidad de d\u00EDas de alquiler contratados.\r\n @param p_nroHabitaciones n\u00FAmero de habitaciones con las que cuenta la caba\u00F1a.\r\n
+comment2.params=p_nombre p_precioBase p_diasAlquiler p_nroHabitaciones p_servicios
+comment2.target=Caba\u00F1a(java.lang.String, double, int, int, java.util.ArrayList)
+comment2.text=\r\n Construye una caba\u00F1a con una colecci\u00F3n inicial de servicios extras.\r\n \r\n @param p_nombre nombre comercial de la caba\u00F1a.\r\n @param p_precioBase precio base diario de estad\u00EDa.\r\n @param p_diasAlquiler cantidad de d\u00EDas de alquiler contratados.\r\n @param p_nroHabitaciones n\u00FAmero de habitaciones con las que cuenta la caba\u00F1a.\r\n @param p_servicios lista inicial de servicios adicionales contratados.\r\n
+comment3.params=p_nroHabitaciones
+comment3.target=void setNroHabitaciones(int)
+comment4.target=int getNroHabitaciones()
+comment5.target=double costo()
+comment5.text=\r\n Calcula el costo neto de la estad\u00EDa agregando $30 diarios por cada habitaci\u00F3n al costo base.\r\n \r\n @return costo total del alquiler de la caba\u00F1a sin incluir servicios extras.\r\n
+comment6.params=p_alojamiento
+comment6.target=int contar(java.lang.String)
+comment6.text=\r\n Determina si este alojamiento corresponde al tipo "Caba\u00F1a".\r\n \r\n @param p_alojamiento cadena con el tipo de alojamiento a consultar.\r\n @return 1 si coincide con el tipo caba\u00F1a, 0 en caso contrario.\r\n
+comment7.target=void liquidar()
+comment7.text=\r\n Muestra la liquidaci\u00F3n completa de la caba\u00F1a, imprimiendo los datos comunes,\r\n el detalle de habitaciones y el total definitivo a abonar.\r\n
+numComments=8

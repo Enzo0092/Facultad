@@ -1,0 +1,22 @@
+#BlueJ class context
+#Thu Oct 22 11:51:47 ART 2026
+comment0.target=Individuo
+comment0.text=\r\n Representa a un visitante particular e independiente que concurre al zool\u00F3gico.\r\n Modela la interacci\u00F3n con la clase Persona y fija el valor base de su entrada.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre p_fechaVisita p_persona
+comment1.target=Individuo(java.lang.String, java.util.Calendar, Persona)
+comment1.text=\r\n Construye un visitante de tipo Individuo vincul\u00E1ndolo con una persona f\u00EDsica.\r\n \r\n @param p_nombre denominaci\u00F3n o nombre del visitante.\r\n @param p_fechaVisita fecha en la que se registra la concurrencia.\r\n @param p_persona instancia de Persona con los datos personales completos.\r\n
+comment2.params=p_persona
+comment2.target=void setPersona(Persona)
+comment3.target=Persona getPersona()
+comment4.target=java.lang.String tipoVisitante()
+comment4.text=\r\n Retorna el tipo de visitante correspondiente a esta clase.\r\n \r\n @return texto con el valor literal "Individuo".\r\n
+comment5.params=p_fecha p_visitante
+comment5.target=void listarPorFecha(java.util.Calendar, java.lang.String)
+comment5.text=\r\n Eval\u00FAa si la fecha de visita coincide con el d\u00EDa consultado y si el tipo coincide con "Individuo".\r\n En caso afirmativo, imprime los datos de la persona por consola.\r\n \r\n @param p_fecha fecha de consulta a contrastar (a\u00F1o, mes y d\u00EDa).\r\n @param p_visitante cadena con el tipo de visitante solicitado.\r\n
+comment6.target=void mostrar()
+comment6.text=\r\n Imprime por consola los datos personales del individuo conforme al formato requerido.\r\n
+comment7.target=double entrada()
+comment7.text=\r\n Retorna el importe fijado para la entrada individual al zool\u00F3gico.\r\n \r\n @return costo de entrada individual ($10.0).\r\n
+comment8.target=java.util.HashSet listarPersonas()
+comment8.text=\r\n Retorna un conjunto que contiene \u00FAnicamente a la persona f\u00EDsica que compone este individuo.\r\n \r\n @return HashSet de Persona con un solo elemento.\r\n
+numComments=9

@@ -1,0 +1,32 @@
+#BlueJ class context
+#Thu Oct 22 13:30:03 ART 2026
+comment0.target=Delegacion
+comment0.text=\r\n Representa a un contingente o grupo organizado de personas que visita el zool\u00F3gico.\r\n Gestiona una colecci\u00F3n de integrantes individuales sin admitir repeticiones\r\n y calcula el costo de acceso aplicando un descuento institucional del 10%.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre p_fecha
+comment1.target=Delegacion(java.lang.String, java.util.Calendar)
+comment1.text=\r\n Construye una delegaci\u00F3n inicializando su lista de integrantes vac\u00EDa.\r\n \r\n @param p_nombre denominaci\u00F3n o nombre que identifica a la delegaci\u00F3n.\r\n @param p_fecha fecha en la que el contingente asiste al zool\u00F3gico.\r\n
+comment10.params=p_fecha p_visitante
+comment10.target=void listarPorFecha(java.util.Calendar, java.lang.String)
+comment10.text=\r\n Eval\u00FAa si la fecha de visita coincide con el d\u00EDa consultado y si el tipo consultado\r\n corresponde a delegaciones. En caso afirmativo, emite su detalle por consola.\r\n \r\n @param p_fecha fecha de consulta (a\u00F1o, mes y d\u00EDa).\r\n @param p_visitante tipo de visitante solicitado ("Individuo" o "Delegaci\u00F3n").\r\n
+comment11.target=java.util.HashSet listarPersonas()
+comment11.text=\r\n Recopila y retorna el conjunto de todas las personas f\u00EDsicas integrantes de la delegaci\u00F3n.\r\n \r\n @return conjunto HashSet de instancias Persona.\r\n
+comment2.params=p_nombre p_fecha p_individuos
+comment2.target=Delegacion(java.lang.String, java.util.Calendar, java.util.ArrayList)
+comment2.text=\r\n Construye una delegaci\u00F3n con una colecci\u00F3n inicial de integrantes.\r\n \r\n @param p_nombre denominaci\u00F3n o nombre que identifica a la delegaci\u00F3n.\r\n @param p_fecha fecha en la que el contingente asiste al zool\u00F3gico.\r\n @param p_individuos lista inicial de integrantes pertenecientes al grupo.\r\n
+comment3.params=p_individuos
+comment3.target=void setIntegrantes(java.util.ArrayList)
+comment4.target=java.lang.String tipoVisitante()
+comment4.text=\r\n Retorna el tipo de visitante correspondiente a esta clase.\r\n \r\n @return texto literal "Delegaci\u00F3n".\r\n
+comment5.params=p_individuo
+comment5.target=void inscribirIndividuo(Individuo)
+comment5.text=\r\n Inscribe un nuevo individuo como integrante de la delegaci\u00F3n, garantizando\r\n que no se registre duplicado en el mismo grupo.\r\n \r\n @param p_individuo instancia de Individuo a incorporar.\r\n
+comment6.params=p_individuo
+comment6.target=boolean quitarIntegrante(Individuo)
+comment6.text=\r\n Remueve a un integrante de la colecci\u00F3n de la delegaci\u00F3n.\r\n \r\n @param p_individuo individuo a dar de baja.\r\n @return true si el integrante exist\u00EDa y fue removido; false en caso contrario.\r\n
+comment7.target=int cantidadIntegrantes()
+comment7.text=\r\n Determina la cantidad total de personas que conforman el grupo.\r\n \r\n @return n\u00FAmero entero con el total de integrantes registrados.\r\n
+comment8.target=void mostrar()
+comment8.text=\r\n Muestra por consola el detalle completo del contingente\: encabezado con el nombre,\r\n listado de cada uno de sus integrantes y la cantidad total.\r\n
+comment9.target=double entrada()
+comment9.text=\r\n Calcula el costo total de la entrada para la delegaci\u00F3n, equivalente a la suma\r\n de las entradas individuales ($10 por integrante) con un 10% de bonificaci\u00F3n.\r\n \r\n @return importe total a abonar por el acceso del grupo.\r\n
+numComments=12

@@ -1,0 +1,35 @@
+#BlueJ class context
+#Wed Oct 21 19:34:31 ART 2026
+comment0.target=Alojamiento
+comment0.text=\r\n Superclase abstracta que define la estructura y comportamiento base\r\n de cualquier tipo de alojamiento ofrecido por la cadena hotelera.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre p_precioBase p_diasAlquiler
+comment1.target=Alojamiento(java.lang.String, double, int)
+comment1.text=\r\n Constructor que inicializa un alojamiento sin servicios adicionales.\r\n \r\n @param p_nombre nombre comercial o fantas\u00EDa del alojamiento.\r\n @param p_precioBase costo base fijado por cada d\u00EDa de alquiler.\r\n @param p_diasAlquiler cantidad total de d\u00EDas que durar\u00E1 la estad\u00EDa.\r\n
+comment10.params=p_servicio
+comment10.target=boolean agregarServicio(Servicio)
+comment11.params=p_servicio
+comment11.target=boolean quitarServicio(Servicio)
+comment12.target=void listarServicios()
+comment13.target=double costoServicios()
+comment14.target=double costo()
+comment14.text=\r\n Calcula el costo base del alojamiento seg\u00FAn los d\u00EDas de estad\u00EDa y el precio diario.\r\n \r\n @return costo base sin servicios ni adicionales propios de subclase.\r\n
+comment15.target=void liquidar()
+comment15.text=\r\n Emite por consola la secci\u00F3n de liquidaci\u00F3n com\u00FAn a todos los tipos de alojamiento.\r\n
+comment16.params=p_alojamiento
+comment16.target=int contar(java.lang.String)
+comment16.text=\r\n Determina polim\u00F3rficamente si el alojamiento coincide con el tipo consultado por la gerencia.\r\n \r\n @param p_alojamiento etiqueta representativa del tipo ("Caba\u00F1a" u "Hotel").\r\n @return 1 si el tipo coincide, 0 en caso contrario.\r\n
+comment2.params=p_nombre p_precioBase p_diasAlquiler p_servicios
+comment2.target=Alojamiento(java.lang.String, double, int, java.util.ArrayList)
+comment2.text=\r\n Constructor sobrecargado que inicializa un alojamiento con una lista preexistente de servicios.\r\n \r\n @param p_nombre nombre comercial del alojamiento.\r\n @param p_precioBase costo base diario.\r\n @param p_diasAlquiler cantidad de d\u00EDas contratados.\r\n @param p_servicios colecci\u00F3n inicial de servicios extras solicitados.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.target=java.lang.String getNombre()
+comment5.params=p_precioBase
+comment5.target=void setPrecioBase(double)
+comment6.target=double getPrecioBase()
+comment7.params=p_diasAlquiler
+comment7.target=void setDiasAlquiler(int)
+comment8.target=int getDiasAlquiler()
+comment9.params=p_servicios
+comment9.target=void setServicios(java.util.ArrayList)
+numComments=17

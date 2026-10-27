@@ -1,0 +1,25 @@
+#BlueJ class context
+#Thu Oct 22 11:13:41 ART 2026
+comment0.target=Visitante
+comment0.text=\r\n Superclase abstracta que modela los datos comunes de cualquier visitante\r\n al parque zool\u00F3gico (individuos o delegaciones).\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre p_fechaVisita
+comment1.target=Visitante(java.lang.String, java.util.Calendar)
+comment1.text=\r\n Construye un visitante asignando su denominaci\u00F3n y fecha de concurrencia.\r\n \r\n @param p_nombre nombre del visitante o identificaci\u00F3n del grupo.\r\n @param p_fechaVisita fecha en la que se realiza la visita al zool\u00F3gico.\r\n
+comment10.target=java.util.HashSet listarPersonas()
+comment10.text=\r\n Retorna el conjunto de personas f\u00EDsicas asociadas a la visita sin repeticiones.\r\n \r\n @return colecci\u00F3n HashSet con las instancias de Persona.\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment3.params=p_fechaVisita
+comment3.target=void setFechaVisita(java.util.Calendar)
+comment4.target=java.lang.String getNombre()
+comment5.target=java.util.Calendar getFechaVisita()
+comment6.target=void mostrar()
+comment6.text=\r\n Muestra por consola la informaci\u00F3n y detalle del visitante seg\u00FAn su tipo.\r\n
+comment7.target=double entrada()
+comment7.text=\r\n Calcula el costo neto de la entrada para el visitante.\r\n \r\n @return importe monetario de la entrada.\r\n
+comment8.params=p_fecha p_visitante
+comment8.target=void listarPorFecha(java.util.Calendar, java.lang.String)
+comment8.text=\r\n Muestra los datos del visitante si coincide con la fecha y el tipo consultados.\r\n \r\n @param p_fecha fecha de visita a filtrar.\r\n @param p_visitante tipo de visitante a filtrar ("Individuo" o "Delegaci\u00F3n").\r\n
+comment9.target=java.lang.String tipoVisitante()
+comment9.text=\r\n Retorna una cadena identificatoria del tipo concreto de visitante.\r\n \r\n @return "Individuo" o "Delegaci\u00F3n".\r\n
+numComments=11

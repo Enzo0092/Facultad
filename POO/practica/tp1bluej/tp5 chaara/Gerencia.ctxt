@@ -1,0 +1,30 @@
+#BlueJ class context
+#Wed Oct 21 20:53:32 ART 2026
+comment0.target=Gerencia
+comment0.text=\r\n Representa la administraci\u00F3n de una gerencia regional de la cadena de alojamientos.\r\n Gestiona el conjunto de alojamientos alquilados (caba\u00F1as y hoteles), coordina\r\n sus liquidaciones individuales e informa los totales acumulados por categor\u00EDa.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=p_nombre
+comment1.target=Gerencia(java.lang.String)
+comment1.text=\r\n Construye una gerencia inicializando la colecci\u00F3n de alojamientos alquilados vac\u00EDa.\r\n \r\n @param p_nombre denominaci\u00F3n comercial o regional de la gerencia.\r\n
+comment10.target=void liquidar()
+comment10.text=\r\n Ejecuta polim\u00F3rficamente la emisi\u00F3n de la liquidaci\u00F3n de cada alojamiento registrado.\r\n
+comment11.target=void mostrarLiquidacion()
+comment11.text=\r\n Emite por consola el reporte general consolidado de la gerencia\:\r\n encabezado descriptivo, liquidaciones detalladas por unidad y totales clasificados por tipo.\r\n
+comment2.params=p_nombre p_alojamientos
+comment2.target=Gerencia(java.lang.String, java.util.ArrayList)
+comment2.text=\r\n Construye una gerencia asignando una colecci\u00F3n preexistente de alojamientos alquilados.\r\n \r\n @param p_nombre denominaci\u00F3n comercial o regional de la gerencia.\r\n @param p_alojamientos lista inicial de alojamientos alquilados.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.target=java.lang.String getNombre()
+comment5.params=p_alojamientos
+comment5.target=void setAlojamientosAlquilados(java.util.ArrayList)
+comment6.target=java.util.ArrayList getAlojamientosAlquilados()
+comment7.params=p_alojamiento
+comment7.target=boolean agregarAlojamiento(Alojamiento)
+comment7.text=\r\n Incorpora un nuevo alojamiento alquilado a la colecci\u00F3n administrada.\r\n \r\n @param p_alojamiento instancia de Alojamiento (Caba\u00F1a u Hotel) a dar de alta.\r\n @return true si la operaci\u00F3n de agregaci\u00F3n se complet\u00F3 exitosamente.\r\n
+comment8.params=p_alojamiento
+comment8.target=boolean quitarAlojamiento(Alojamiento)
+comment8.text=\r\n Da de baja un alojamiento de la colecci\u00F3n de alquileres vigentes.\r\n \r\n @param p_alojamiento instancia de Alojamiento a remover.\r\n @return true si el alojamiento se encontraba registrado y pudo removerse; false en caso contrario.\r\n
+comment9.params=tipoAlojamiento
+comment9.target=int contarAlojamiento(java.lang.String)
+comment9.text=\r\n Cuantifica polim\u00F3rficamente los alojamientos registrados que pertenecen al tipo consultado.\r\n \r\n @param tipoAlojamiento etiqueta del tipo de alojamiento ("Caba\u00F1a" u "Hotel").\r\n @return cantidad total de unidades alquiladas que coinciden con el tipo recibido.\r\n
+numComments=12

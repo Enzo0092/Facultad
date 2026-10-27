@@ -1,0 +1,7 @@
+#BlueJ class context
+#Thu Oct 22 14:41:52 ART 2026
+comment0.target=AdministracionZoo
+comment0.text=\r\n Clase ejecutable para testear el sistema del Zool\u00F3gico (Ejercicio 10).\r\n Simula el ingreso de delegaciones e individuos, realiza los listados filtrados\r\n por fecha y tipo, y calcula la recaudaci\u00F3n total en un per\u00EDodo.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

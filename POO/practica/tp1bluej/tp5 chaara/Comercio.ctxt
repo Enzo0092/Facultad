@@ -1,0 +1,7 @@
+#BlueJ class context
+#Wed Oct 21 11:26:09 ART 2026
+comment0.target=Comercio
+comment0.text=\r\n Clase ejecutable para simular consultas de clientes en el comercio de electrodom\u00E9sticos.\r\n \r\n @author Enzo Romero\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2
