@@ -1,0 +1,27 @@
+#BlueJ class context
+#Sun Nov 08 16:02:01 ART 2026
+comment0.target=Biblioteca
+comment1.params=p_nombre
+comment1.target=Biblioteca(java.lang.String)
+comment1.text=\r\n Constructores\r\n
+comment10.target=java.lang.String listaDeLibros()
+comment11.target=java.lang.String listaDeDocentesResponsables()
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=\r\n Accessors\r\n
+comment3.target=java.lang.String getNombre()
+comment4.params=p_titulo p_edicion p_editorial p_anio
+comment4.target=void nuevoLibro(java.lang.String, int, java.lang.String, int)
+comment4.text=\r\n Instanciamos Libros\r\n
+comment5.params=p_dniSocio p_nombre p_carrera
+comment5.target=void nuevoSocioEstudiante(int, java.lang.String, java.lang.String)
+comment5.text=\r\n Instanciamos Socios de tipo Estudiantes\r\n
+comment6.params=p_dniSocio p_nombre p_area
+comment6.target=void nuevoSocioDocente(int, java.lang.String, java.lang.String)
+comment6.text=\r\n Instanciamos Socios de tipo Docentes\r\n
+comment7.params=p_objeto
+comment7.target=int cantidadDeSociosPorTipo(java.lang.String)
+comment7.text=\r\n Contamos los Socios por su Tipo\r\n
+comment8.target=java.lang.String listaDeSocios()
+comment9.target=java.lang.String listaDeTitulos()
+numComments=12

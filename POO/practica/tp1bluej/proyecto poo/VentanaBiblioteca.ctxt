@@ -1,0 +1,25 @@
+#BlueJ class context
+#Sun Nov 08 16:02:05 ART 2026
+comment0.target=VentanaBiblioteca
+comment0.text=\r\n Interfaz gr\u00E1fica (Swing) para la Gesti\u00F3n de Biblioteca.\r\n La ventana solo pide y muestra datos\: la l\u00F3gica queda en las clases del dise\u00F1o\r\n y los cambios se sincronizan con la Base de Datos en SQL Server.\r\n
+comment1.params=p_biblioteca
+comment1.target=VentanaBiblioteca(Biblioteca)
+comment10.target=void agregarDocente()
+comment11.target=void agregarEstudiante()
+comment12.target=void quitarSocio()
+comment13.target=Socio buscarSocioIngresado()
+comment13.text=\r\n Busca el socio con el DNI escrito en la ventana.\r\n Si no lo encuentra, avisa en pantalla y devuelve null.\r\n
+comment14.params=p_prestado
+comment14.target=Libro buscarLibroIngresado(boolean)
+comment14.text=\r\n Busca un libro por el t\u00EDtulo escrito en la ventana.\r\n Si hay varios ejemplares, prefiere uno cuyo estado de pr\u00E9stamo coincida\r\n con p_prestado (para prestar\: uno disponible; para devolver\: uno prestado).\r\n Si no lo encuentra, avisa en pantalla y devuelve null.\r\n
+comment2.target=javax.swing.JPanel crearPanelCampos()
+comment3.target=javax.swing.JPanel crearPanelBotones()
+comment4.params=p_texto
+comment4.target=javax.swing.JButton crearBoton(java.lang.String)
+comment5.params=e
+comment5.target=void actionPerformed(java.awt.event.ActionEvent)
+comment6.target=void prestar()
+comment7.target=void devolver()
+comment8.target=void quienTiene()
+comment9.target=void puedePedir()
+numComments=15

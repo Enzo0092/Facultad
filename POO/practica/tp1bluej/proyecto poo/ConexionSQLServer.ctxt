@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Nov 08 16:02:01 ART 2026
+comment0.target=ConexionSQLServer
+comment0.text=\r\n Conector sencillo hacia la Base de Datos Relacional en SQL Server (BibliotecaPOO).\r\n Permite cargar y guardar Socios, Libros y Pr\u00E9stamos desde VentanaBiblioteca.\r\n
+comment1.params=p_biblioteca
+comment1.target=boolean cargarDesdeSQLServer(Biblioteca)
+comment1.text=\r\n Carga todos los Socios, Libros y Pr\u00E9stamos guardados en SQL Server\r\n dentro del objeto Biblioteca.\r\n Si la base de datos a\u00FAn no tiene socios ni libros, devuelve false para que\r\n se usen los datos por defecto.\r\n
+comment2.params=p_biblioteca
+comment2.target=void guardarEnSQLServer(Biblioteca)
+comment2.text=\r\n Sincroniza y guarda los Socios, Libros y Pr\u00E9stamos actuales de la Biblioteca\r\n en las tablas relacionales de SQL Server (BibliotecaPOO).\r\n
+comment3.params=query
+comment3.target=java.util.List ejecutarConsulta(java.lang.String)
+comment4.params=scriptSQL
+comment4.target=void ejecutarComandoSQL(java.lang.String)
+comment5.params=texto
+comment5.target=java.lang.String escaparSQL(java.lang.String)
+numComments=6

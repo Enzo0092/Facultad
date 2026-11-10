@@ -1,0 +1,6 @@
+#BlueJ class context
+#Sun Nov 08 16:02:05 ART 2026
+comment0.target=LibroNoPrestadoException
+comment1.params=mensaje
+comment1.target=LibroNoPrestadoException(java.lang.String)
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+#Tue Nov 10 11:07:48 ART 2026
+comment0.target=Docente
+comment1.params=p_dniSocio p_nombre p_area
+comment1.target=Docente(int, java.lang.String, java.lang.String)
+comment2.params=p_area
+comment2.target=void setArea(java.lang.String)
+comment3.target=java.lang.String getArea()
+comment4.target=boolean puedePedir()
+comment5.target=boolean esResponsable()
+comment6.target=java.lang.String soyDeLaClase()
+comment7.params=p_masDias
+comment7.target=void CambiarDiasDePrestamo(int)
+numComments=8

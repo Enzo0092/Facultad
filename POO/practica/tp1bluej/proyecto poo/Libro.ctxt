@@ -1,0 +1,23 @@
+#BlueJ class context
+#Sun Nov 08 16:02:03 ART 2026
+comment0.target=Libro
+comment0.text=\r\n Representa un libro de la biblioteca y administra sus pr\u00E9stamos.\r\n \r\n @author Morales, Francisco \r\n @version 1.0\r\n
+comment1.params=p_titulo p_edicion p_editorial p_anio
+comment1.target=Libro(java.lang.String, int, java.lang.String, int)
+comment10.target=boolean prestado()
+comment10.text=\r\n Verifica si el libro se encuentra prestado.\r\n @return true si el libro est\u00E1 prestado, false en caso contrario.\r\n
+comment11.target=java.lang.String toString()
+comment11.text=\r\n Retorna el t\u00EDtulo del libro en forma de cadena.\r\n @return String con el t\u00EDtulo del libro.\r\n
+comment2.params=p_titulo
+comment2.target=void setTitulo(java.lang.String)
+comment3.params=p_edicion
+comment3.target=void setEdicion(int)
+comment4.params=p_editorial
+comment4.target=void setEditorial(java.lang.String)
+comment5.params=p_anio
+comment5.target=void setAnio(int)
+comment6.target=java.lang.String getTitulo()
+comment7.target=int getEdicion()
+comment8.target=java.lang.String getEditorial()
+comment9.target=int getAnio()
+numComments=12

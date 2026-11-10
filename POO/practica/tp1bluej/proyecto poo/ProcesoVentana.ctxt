@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Nov 08 16:02:09 ART 2026
+comment0.target=ProcesoVentana
+comment0.text=\r\n Clase auxiliar para ejecutar la ventana de la biblioteca.\r\n Carga los datos desde SQL Server (o datos de prueba si est\u00E1 vac\u00EDa) y muestra la interfaz.\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

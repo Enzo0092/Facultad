@@ -1,0 +1,25 @@
+#BlueJ class context
+#Sun Nov 08 16:02:03 ART 2026
+comment0.target=Prestamo
+comment0.text=\r\n Representa el prestamo de un libro a un socio de la biblioteca.\r\n \r\n @author Zarate Arturo Alan.\r\n \r\n @version 2026\r\n
+comment1.params=p_fechaRetiro
+comment1.target=void setFechaRetiro(java.util.Calendar)
+comment1.text=\r\n Asigna p_fechaRetiro a la fecha en la que pidio el prestamo.\r\n\r\n @param Calendar p_fechaRetiro       Fecha de retiro del libro.\r\n
+comment2.params=p_libro
+comment2.target=void setLibro(Libro)
+comment2.text=\r\n Asigna p_libro al libro que fue prestado.\r\n\r\n @param Libro p_libro      Libro prestado.\r\n
+comment3.target=java.util.Calendar getFechaRetiro()
+comment3.text=\r\n Retorna la fecha  en la que se pidio el prestamo.\r\n \r\n @return  fecha de retiro.\r\n
+comment4.target=java.util.Calendar getFechaDevolucion()
+comment4.text=\r\n Retorna la fecha en la que se devolvio el libro.\r\n \r\n @return fecha de devolucion, o null si aun esta pendiente.\r\n
+comment5.target=Libro getLibro()
+comment5.text=\r\n Retorna el libro prestado.\r\n \r\n @return libro prestado .\r\n
+comment6.params=p_fecha
+comment6.target=void registrarFechaDevolucion(java.util.Calendar)
+comment6.text=\r\n Registra o actualiza la fecha de devolucion del prestamo.\r\n \r\n Solo se usa una vez que el libro fue devuelto.\r\n \r\n @param Calendar p_fecha     Fecha de devolucion.\r\n
+comment7.params=p_fecha
+comment7.target=boolean vencido(java.util.Calendar)
+comment7.text=\r\n Verifica si el prestamo se encuentra vencido respecto a una fecha pasada como parametro.\r\n \r\n La verificacion se realiza sumandole a la fecha de retiro los d\u00EDas de prestamo permitidos del socio y con eso obtenemos\r\n la fecha de vencimiento.\r\n Luego se controla si la fecha pasada como parametro es mayor que dicha fecha de vencimiento.\r\n\r\n @param Calendar p_fecha     Fecha con la cual se desea comprobar el vencimiento.\r\n \r\n @return true si la fecha pasada es mayor a la fecha de vencimiento; false en caso contrario.\r\n
+comment8.target=java.lang.String toString()
+comment8.text=\r\n Devuelve una representacion en forma de cadena de los detalles del prestamo.\r\n \r\n @return String con fecha de retiro, fecha de devolucion, t\u00EDtulo del libro y nombre del socio.\r\n
+numComments=9

@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Nov 08 16:02:03 ART 2026
+comment0.target=Estudiante
+comment0.text=\r\n Socio estudiante. Puede pedir si no tiene ning\u00FAn pr\u00E9stamo vencido\r\n y si no tiene m\u00E1s de 3 libros en su poder.\r\n Sus pr\u00E9stamos vencen a los 20 d\u00EDas de la fecha de retiro.\r\n
+comment1.params=p_dniSocio p_nombre p_carrera
+comment1.target=Estudiante(int, java.lang.String, java.lang.String)
+comment2.params=p_carrera
+comment2.target=void setCarrera(java.lang.String)
+comment3.target=java.lang.String getCarrera()
+comment4.target=boolean puedePedir()
+comment4.text=\r\n Puede pedir si no tiene pr\u00E9stamos vencidos y no tiene m\u00E1s de 3 libros.\r\n
+comment5.target=java.lang.String soyDeLaClase()
+numComments=6
